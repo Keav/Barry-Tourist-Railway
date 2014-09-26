@@ -1,8 +1,9 @@
 {
-  "name": "chriskeavey.com",
+  "name": "Barry Tourist Railway",
   "version": "0.1.0",
-  "description": "My own proffessional website",
+  "description": "Website of Barry Tourist Railway",
   "private": true,
+  "homepage": "http://barrytouristrailway.co.uk",
   "author": {
     "name": "Chris Keavey",
     "email": "chris@chriskeavey.com",
@@ -11,7 +12,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Keav/chriskeavey.com.git"
+    "url": "https://github.com/Keav/Barry-Tourist-Railway.git"
    },
   "devDependencies": {
     "grunt": "~0.4.5",
