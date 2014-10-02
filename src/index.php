@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
         <link rel="stylesheet" href="owl-carousel/owl.theme.min.css">
         <link rel="stylesheet" href="owl-carousel/owl.transitions.min.css">
+        <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
         <!--<script type="text/javascript" src="js/jquery.js"></script>-->
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
@@ -131,9 +132,9 @@
                     <div  id="tab2" class="event_nav_2">
                         <a href="Javascript:void(0);" onclick="two();">&nbsp;</a>
                     </div>
-                    <!--<div  id="tab3" class="event_nav_3">
+                    <!-- <div  id="tab3" class="event_nav_3">
                         <a href="Javascript:void(0);" onclick="three();">&nbsp;</a>
-                    </div>-->
+                    </div> -->
 
                     <br style="clear:left;"/>
                     <div class="viewAllEvents">

@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -16,7 +17,8 @@
         <div class="contentSub" id="eventsPage"> 
             <div class="container">
                 
-                <h1>Next Event</h1> 
+                <h1>Next Event</h1>
+                
                 <div class="on_now_event">
                     <div class="grid_4_r">
                         <div class="on_now_img">
