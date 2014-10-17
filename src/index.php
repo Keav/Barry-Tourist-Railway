@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/> 
+        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
@@ -14,46 +14,42 @@
         <!--<script type="text/javascript" src="js/jquery.js"></script>-->
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
-        <title>Barry Tourist Railway</title> 
+        <title>Barry Tourist Railway</title>
         <script type="text/javascript">
-            <!--
-
-            function one(){ 
+            function one(){
                 $('#event2').hide();
                 $('#event1').show();
                 $('#event3').hide();
-                $("#tab1").removeClass("event_nav_1"); 
-                $("#tab1").addClass("event_nav_1_active"); 
-                $("#tab2").removeClass("event_nav_2_active"); 
-                $("#tab2").addClass("event_nav_2"); 
-                $("#tab3").removeClass("event_nav_3_active"); 
+                $("#tab1").removeClass("event_nav_1");
+                $("#tab1").addClass("event_nav_1_active");
+                $("#tab2").removeClass("event_nav_2_active");
+                $("#tab2").addClass("event_nav_2");
+                $("#tab3").removeClass("event_nav_3_active");
                 $("#tab3").addClass("event_nav_3");
-                
-            } 
-            function two(){ 
-                $("#tab2").removeClass("event_nav_2"); 
-                $("#tab2").addClass("event_nav_2_active"); 
-                $("#tab1").removeClass("event_nav_1_active"); 
-                $("#tab1").addClass("event_nav_1"); 
-                $("#tab3").removeClass("event_nav_3_active"); 
-                $("#tab3").addClass("event_nav_3");                 
+
+            }
+            function two(){
+                $("#tab2").removeClass("event_nav_2");
+                $("#tab2").addClass("event_nav_2_active");
+                $("#tab1").removeClass("event_nav_1_active");
+                $("#tab1").addClass("event_nav_1");
+                $("#tab3").removeClass("event_nav_3_active");
+                $("#tab3").addClass("event_nav_3");
                 $('#event1').hide();
                 $('#event2').show();
                 $('#event3').hide();
-            } 
+            }
             function three(){
-                $("#tab3").removeClass("event_nav_3"); 
-                $("#tab3").addClass("event_nav_3_active");                
-                $("#tab1").removeClass("event_nav_1_active"); 
-                $("#tab1").addClass("event_nav_1");                      
-                $("#tab2").removeClass("event_nav_2_active"); 
-                $("#tab2").addClass("event_nav_2");                
+                $("#tab3").removeClass("event_nav_3");
+                $("#tab3").addClass("event_nav_3_active");
+                $("#tab1").removeClass("event_nav_1_active");
+                $("#tab1").addClass("event_nav_1");
+                $("#tab2").removeClass("event_nav_2_active");
+                $("#tab2").addClass("event_nav_2");
                 $('#event1').hide();
                 $('#event3').show();
                 $('#event2').hide();
-            } 
-            //-->
-
+            }
         </script>
     </head>
     <body>
@@ -162,13 +158,13 @@
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
-        </div> 
+        </div>
         <!--FOOTER-->
 
         <script src="owl-carousel/owl.carousel.js"></script>
 
         <script>
-        // Initialize and setup Owl Image Carousel 
+        // Initialize and setup Owl Image Carousel
         $(document).ready(function() {
         var owl = $("#owl-demo");
 
