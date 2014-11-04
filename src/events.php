@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>Events</title>
     </head>
     <body>
@@ -14,11 +13,11 @@
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
-        <div class="contentSub" id="eventsPage"> 
+        <div class="contentSub" id="eventsPage">
             <div class="container">
-                
+
                 <h1>Next Event</h1>
-                
+
                 <div class="on_now_event">
                     <div class="grid_4_r">
                         <div class="on_now_img">
@@ -35,16 +34,28 @@
                             <br style="clear:left;"/>
                         </div>
                         <br style="clear:left;"/>
-                        <p>Join us to travel from Barry Waterfront to Barry Island for the annual fireworks display and avoid the hassle of taking your car across the busy causeway road.<br>
+                        <p><b>Beat the jams and Park and Ride for the Firework Display on 5th November</b></p>
                         <br>
-                        We will be running evening trains from The Waterfront Station to Barry Island for the Firework exhibition and return afterwards.</p>
+                        <p>The Barry Tourist Railway is running a shuttle service from their Waterfront Station, (off Hood Road opposite the Premier Inn) to Barry Island for the firework display on the evening of Wednesday 5th November.</p>
+                        <br>
+                        <p>There is plenty of car parking space right behind the Waterfront Station platform and we will be running our 1950&#39;s vintage diesel railcar set &#39;IRIS II&#39;.</p>
+                        <br>
+                        <p>The first train departs the Waterfront at 18.15hrs and trains run at 15 minute intervals until 19.30hrs.</p>
+                        <br>
+                        <p>After the display ends, the shuttle service recommences from Barry Island Station to the Waterfront, with the last train leaving Barry Island at 21.00hrs.</p>
+                        <br>
+                        <p>Park and Ride fares are £5 for a family or group of up to 4 people and £10 for a vehicle up to 10 people.</p>
+                        <br>
+                        <p>You can pay on the train (cash only).</p>
+                        <br>
+                        <p>Step back in time on our vintage train and beat the Queues!</p>
                     </div>
 
                     <br style="clear:left;"/>&nbsp;
                 </div>
-                            
 
-                <h4>Upcoming Events</h4>                            
+
+                <h4>Upcoming Events</h4>
 
                 <div class="upcoming_event">
                     <div class="grid_3">
@@ -113,7 +124,7 @@
                     </div>
 
                     <br style="clear:left;"/>&nbsp;
-                </div>             
+                </div>
 
                 <div class="upcoming_event">
                      <div class="grid_3">

@@ -7,16 +7,13 @@
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
         <link href="css/glyphicon.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="owl-carousel/owl.theme.min.css">
-        <link rel="stylesheet" href="owl-carousel/owl.transitions.min.css">
         <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
         <!--<script type="text/javascript" src="js/jquery.js"></script>-->
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
         <title>Barry Tourist Railway</title>
         <script type="text/javascript">
-            function one(){
+            function one() {
                 $('#event2').hide();
                 $('#event1').show();
                 $('#event3').hide();
@@ -28,7 +25,7 @@
                 $("#tab3").addClass("event_nav_3");
 
             }
-            function two(){
+            function two() {
                 $("#tab2").removeClass("event_nav_2");
                 $("#tab2").addClass("event_nav_2_active");
                 $("#tab1").removeClass("event_nav_1_active");
@@ -39,7 +36,7 @@
                 $('#event2').show();
                 $('#event3').hide();
             }
-            function three(){
+            function three() {
                 $("#tab3").removeClass("event_nav_3");
                 $("#tab3").addClass("event_nav_3_active");
                 $("#tab1").removeClass("event_nav_1_active");
@@ -85,6 +82,8 @@
                             <!-- EVENT CONTENT--> <p>Join us to travel from Barry Waterfront to Barry Island for the annual fireworks display and avoid the hassle of taking your car across the busy causeway road.<br>
                             <br>
                             We will be running evening trains from The Waterfront Station to Barry Island for the Firework exhibition and return afterwards.</p>
+                            <br>
+                            <p>Please see our <a href="events.php">events</a> page for ticket prices and more details.</p>
                         </div>
                         <br style="clear:left;"/>&nbsp;
                     </div>
@@ -160,22 +159,5 @@
             <?php include('includes/footer.php'); ?>
         </div>
         <!--FOOTER-->
-
-        <script src="owl-carousel/owl.carousel.js"></script>
-
-        <script>
-        // Initialize and setup Owl Image Carousel
-        $(document).ready(function() {
-        var owl = $("#owl-demo");
-
-        owl.owlCarousel({
-            autoPlay: 10000,
-            navigation : false,
-            pagination:true,
-            singleItem : true,
-            transitionStyle : "fade",
-            });
-        });
-        </script>
     </body>
 </html>

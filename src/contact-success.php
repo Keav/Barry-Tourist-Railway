@@ -5,8 +5,7 @@
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title></title> 
+        <title></title>
 
     </head>
     <body>
@@ -14,9 +13,9 @@
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
-        <div class="contentSub" id="cf-success"> 
+        <div class="contentSub" id="cf-success">
             <div class="container">
-                <h1>Thanks for your message!</h1> 
+                <h1>Thanks for your message!</h1>
                 <p>Thank you for getting in touch with Barry Tourist Railway, we’ll respond to your query as soon as possible.</p>
                 <div id="home">
                     <a href="index.php">&nbsp;</a>
@@ -28,7 +27,7 @@
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
-        </div> 
+        </div>
         <!--FOOTER-->
 
     </body>

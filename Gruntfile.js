@@ -74,7 +74,7 @@ module.exports = function (grunt) {
                     'head-script-disabled': true,
                     'style-disabled': true
                 },
-                src: ['src/index.html']
+                src: ['src/index.php']
             }
         },
 
@@ -85,8 +85,8 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: { // Dictionary of files
-                    'dist/index.html': 'src/index.html' // 'destination': 'source'
-
+                    'dist/index.html': 'src/index.html', // 'destination': 'source'
+                    'dist/index.php' : 'src/index.php'
                 }
             },
         },
@@ -222,7 +222,7 @@ module.exports = function (grunt) {
                     'src/**/*.css', 'src/**/*.js', '!**/*.min.*'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/index.html',
+                dest: 'dist/*.php',
             },
             prod: {
                 // Specific options, override the global ones
@@ -236,7 +236,7 @@ module.exports = function (grunt) {
                     'dist/js/custom.min.js'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/index.html',
+                dest: 'dist/index.php',
             }
         },
 
@@ -267,7 +267,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['js/jquery**.min.js', '.htaccess'],
+                    src: ['*.php', 'js/jquery**.min.js', '.htaccess', 'includes/*.*'],
                     dest: 'dist/',
                 }]
             },
@@ -275,7 +275,7 @@ module.exports = function (grunt) {
 
         'string-replace': {
             inline: {
-                files: {'dist/index.html' : 'dist/index.html'},
+                files: {'dist/index.php' : 'dist/index.php'},
                 options: {
                     replacements: [
                     // place files inline example
@@ -315,7 +315,7 @@ module.exports = function (grunt) {
                 tasks: ['sass'],
             },
             livereload: {
-                files: ['src/**/*.html', 'src/**/*.css', 'src/**/*.js'],
+                files: ['src/**/*.html', 'src/**/*.php', 'src/**/*.css', 'src/**/*.js'],
                 options: {livereload: true}
             }
         }
@@ -331,10 +331,10 @@ module.exports = function (grunt) {
     // Bump release version numbers
     grunt.registerTask('release', ['shell:bumpVersion']);
 
-    grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 

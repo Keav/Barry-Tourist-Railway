@@ -1,5 +1,5 @@
 <?php
- 
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 //gather variables from contactform
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mailheader = "From: $cf_email\n";
         $mailheader .= "Reply-To: $cf_email \n";
         $message .= "A visitor to your website has posted a contact form - these are the details they entered:\n\n";
-        $message .= "Name:\n $cf_first_name\n\n"; 
+        $message .= "Name:\n $cf_first_name\n\n";
         $message .= "Email:\n $cf_email\n\n";
         $message .= "Phone:\n $cf_phone\n\n";
         $message .= "Query:\n $cf_comments\n\n";
@@ -70,7 +70,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>Contact</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -99,22 +98,22 @@ height:500px;
 </style>
 <script type="text/javascript">
   function initialize() {
-    
-                     var myLatlng= new google.maps.LatLng(51.3925,-3.27294);   
+
+                     var myLatlng= new google.maps.LatLng(51.3925,-3.27294);
      var myOptions = {
       zoom: 16,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    
-    
+
+
     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
        var marker = new google.maps.Marker({
-        position: myLatlng, 
+        position: myLatlng,
         map: map
-    });  
-    
-    
+    });
+
+
   }
 
 
@@ -128,9 +127,9 @@ height:500px;
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
-        <div class="contentSub"> 
+        <div class="contentSub">
             <div class="container">
-                <h1>Contact Us</h1> 
+                <h1>Contact Us</h1>
 
 
 
@@ -142,7 +141,7 @@ height:500px;
                     <label>FORENAME</label>
                     <input type="text" name="cf_first_name" value="<?php echo $cf_first_name; ?>" class="contact-form-input"  />
 
-                    <br style="clear:left;"/>     
+                    <br style="clear:left;"/>
                     <?php
                     if ($cf_first_name_error) {
                         echo "<p class=\"form-field-error\">";
@@ -154,7 +153,7 @@ height:500px;
                     <label>SURNAME</label>
 
                     <input type="text" name="cf_last_name" value="<?php echo $cf_last_name; ?>" class="contact-form-input" />
-                    <br style="clear:left;"/>    
+                    <br style="clear:left;"/>
                     <?php
                     if ($cf_last_name_error) {
                         echo "<p class=\"form-field-error\">";
@@ -169,7 +168,7 @@ height:500px;
 
 
                     <input type="text" name="cf_email" value="<?php echo $cf_email; ?>" class="contact-form-input"/>
-                    <br style="clear:left;"/>    
+                    <br style="clear:left;"/>
                     <?php
                     if ($cf_email_error) {
                         echo "<p class=\"form-field-error\">";
@@ -182,19 +181,19 @@ height:500px;
 
 
                     <input type="text" name="cf_phone" value="<?php echo $cf_phone; ?>" class="contact-form-input" />
-                    <br style="clear:left;"/> 
+                    <br style="clear:left;"/>
                     <?php
                     if ($cf_phone_error) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_phone_error);
                         echo "</p>";
                     }
-                    ?>   
+                    ?>
 
                     <label>MESSAGE</label>
 
-                    <textarea rows="0" cols="0" class="contact-form-textbox"  name="cf_comments"><?php echo $cf_comments; ?></textarea>           
-                    <br style="clear:left;"/>  
+                    <textarea rows="0" cols="0" class="contact-form-textbox"  name="cf_comments"><?php echo $cf_comments; ?></textarea>
+                    <br style="clear:left;"/>
                     <?php
                     if ($cf_comments_error) {
                         echo "<p class=\"form-field-error\">";
@@ -214,8 +213,8 @@ height:500px;
                     <h4>How to Find Us
                     </h4>
                     <div class="mapHolder">
-                        
-<div id="map_canvas" style="width: 380px; height: 380px"></div> 
+
+<div id="map_canvas" style="width: 380px; height: 380px"></div>
                     </div>
 
                     <h4>Connect with Us
@@ -232,7 +231,7 @@ height:500px;
                     </div>
 
                 </div>
-                
+
                     <br style="clear:right;"/>
                 <br style="clear:left;"/>
             </div>
@@ -241,7 +240,7 @@ height:500px;
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
-        </div> 
+        </div>
         <!--FOOTER-->
 
     </body>

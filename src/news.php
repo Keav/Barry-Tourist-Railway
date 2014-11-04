@@ -5,7 +5,6 @@
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>News</title>
 
     </head>
@@ -20,7 +19,7 @@
 
 <!-- ******************************** -->
 
-<h4>News for 2014</h4>                
+<h4>News for 2014</h4>
 
 <div class="news-item-row">
     <div class="newsimg">
@@ -56,10 +55,10 @@
 
     <br style="clear:left;"/>&nbsp;
 </div>
-  
+
 <!-- ******************************** -->
 
-<h4>News for 2013</h4>                
+<h4>News for 2013</h4>
 
 <div class="news-item-row">
     <div class="newsimg">
@@ -210,7 +209,7 @@
     <!--FOOTER-->
     <div id="footer">
         <?php include('includes/footer.php'); ?>
-    </div> 
+    </div>
     <!--FOOTER-->
     </body>
     </html>

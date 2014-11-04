@@ -5,20 +5,19 @@
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title>Train Services</title> 
+        <title>Train Services</title>
 
     </head>
     <body>
 
-        <!--HEADER--> 
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
 
-        <!--HEADER--> 
+        <!--HEADER-->
 
-        <div class="contentSub" id="trainServices"> 
+        <div class="contentSub" id="trainServices">
             <div class="container">
                 <h1>Train Services</h1>
 
@@ -69,8 +68,8 @@
                     <br style="clear:left;"/>
                 </div>
                 <br style="clear:right;"/>
-                
-                
+
+
                 <table class="trainServicTable" >
                      <!-- <tr class="odd"><th><p>MARCH</p></th>
                           <td class="special"><p>29<span>FRI</span></p></td>
@@ -80,7 +79,7 @@
                           <td>&nbsp;</td><td>&nbsp;</td>
                           <td>&nbsp;</td>
                           <td>&nbsp;</td></tr> -->
-                          
+
                      <tr class="odd"><th><p>APRIL</p></th>
                          <td class="special"><p>18<span>FRI</span></p></td>
                          <td class="special"><p>19<span>SAT</span></p></td>
@@ -92,7 +91,7 @@
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
-                         
+
                      <tr class="odd"><th><p>MAY</p></th>
                          <td><p>3<span>SAT</span></p></td>
                          <td><p>4<span>SUN</span></p></td>
@@ -104,7 +103,7 @@
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
-                         
+
                     <tr class="odd"><th><p>JUNE</p></th>
                         <td class="special"><p>7<span>SAT</span></p></td>
                         <td class="special"><p>8<span>SUN</span></p></td>
@@ -116,7 +115,7 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                        
+
                      <tr class="odd"><th><p>JULY</p></th>
                          <td><p>19<span>SAT</span></p></td>
                          <td><p>20<span>SUN</span></p></td>
@@ -128,7 +127,7 @@
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
-                         
+
                      <tr class="odd"><th><p>AUG</p></th>
                         <td><p>2<span>SAT</span></p></td>
                         <td class="special"><p>3<span>SUN</span></p></td>
@@ -164,7 +163,7 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr> -->
-                    
+
                     <tr class="odd"><th><p>NOVEMEBER</p></th>
                         <td class="special"><p>5<span>WED</span></p></td>
                         <td>&nbsp;</td>
@@ -176,7 +175,7 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                           
+
                     <tr class="odd"><th><p>DECEMBER</p></th>
                         <td class="santa"><p>13<span>SAT</span></p></td>
                         <td class="santa"><p>14<span>SUN</span></p></td>
@@ -190,19 +189,19 @@
                         <td>&nbsp;</td></tr>
                 </table>
 
-                <div class="trainServiceTop"> 
+                <div class="trainServiceTop">
                     <h3>Where to Buy</h3>
                     <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
                     <p class="santaSpecial">
-                        Tickets for special events and Santa Specials vary according to the nature of the event.</p> 
+                        Tickets for special events and Santa Specials vary according to the nature of the event.</p>
                 </div>
                 <br style="clear:left;"/>
-                
-                
+
+
                 <div class="pbRow">
                     <div class="pb-image">
                          <img src="images/christmasEvent.jpg" alt=""/>
-                    </div> 
+                    </div>
                     <div class="grid_8">
                         <h3>Private Bookings</h3>
 
@@ -210,7 +209,7 @@
                         </p>
                         <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under the careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
 
-                        </p></div>  
+                        </p></div>
 
                     <br style="clear:left;"/>&nbsp;
 
@@ -227,7 +226,7 @@
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
-        </div> 
+        </div>
         <!--FOOTER-->
 
     </body>
