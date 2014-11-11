@@ -67,34 +67,6 @@
                     <div class="home_event">
                         <div class="grid_4_r">
                             <div class="on_now_img">
-                                <!--Event Image--> <img src="images/bonfire_night.jpg" alt=""/>
-                            </div>
-                        </div>
-                        <div class="grid_8">
-                            <!-- EVENT TITLE--> <h3>Bonfire Night</h3>
-                            <br style="clear:left;"/>
-                            <div class="eventDate">
-                                <img src="images/clock.png" alt=""/>
-                                 <!-- EVENT DATE--> <p>November 5th</p>
-                                <br style="clear:left;"/>
-                            </div>
-                            <br style="clear:left;"/>
-                            <!-- EVENT CONTENT--> <p>Join us to travel from Barry Waterfront to Barry Island for the annual fireworks display and avoid the hassle of taking your car across the busy causeway road.<br>
-                            <br>
-                            We will be running evening trains from The Waterfront Station to Barry Island for the Firework exhibition and return afterwards.</p>
-                            <br>
-                            <p>Please see our <a href="events.php">events</a> page for ticket prices and more details.</p>
-                        </div>
-                        <br style="clear:left;"/>&nbsp;
-                    </div>
-                </div>
-                <!--END EVENT 1-->
-
-                <!--START EVENT 2-->
-                <div id="event2">
-                    <div class="home_event">
-                        <div class="grid_4_r">
-                            <div class="on_now_img">
                                 <!--Event Image--> <img src="images/santa_special_s.jpg" alt=""/>
                             </div>
                         </div>
@@ -107,16 +79,18 @@
                                 <br style="clear:left;"/>
                             </div>
                             <br style="clear:left;"/>
-                            <!-- EVENT CONTENT--> <p>Join Santa as we steam from Barry Island to the Waterfront.<br>
+                            <!-- EVENT CONTENT--> <p>Join Santa as we steam from Barry Island to the Waterfront.</p>
                             <br>
-                            Every child receives a quality gift and adults are given a glass of hot mulled wine and a mince pie.<br>
+                            <p>Every child receives a quality gift and adults are given a glass of hot mulled wine and a mince pie.</p>
                             <br>
-                            Get into the traditional spirit of Christmas at the Barry Tourist Railway.</p>
+                            <p>Get into the traditional spirit of Christmas at the Barry Tourist Railway.</p>
+                            <br>
+                            <p>Please see our <a href="events.php">EVENTS</a> page for further details.</p>
                         </div>
                         <br style="clear:left;"/>&nbsp;
                     </div>
                 </div>
-                <!--END EVENT 2-->
+                <!--END EVENT 1-->
 
                <!--EVENT NAVIGATION-->
 
@@ -124,9 +98,9 @@
                     <div   id="tab1" class="event_nav_1_active">
                        <a href="Javascript:void(0);" onclick="one()">&nbsp;</a>
                     </div>
-                    <div  id="tab2" class="event_nav_2">
+<!--                     <div  id="tab2" class="event_nav_2">
                         <a href="Javascript:void(0);" onclick="two();">&nbsp;</a>
-                    </div>
+                    </div> -->
                     <!-- <div  id="tab3" class="event_nav_3">
                         <a href="Javascript:void(0);" onclick="three();">&nbsp;</a>
                     </div> -->

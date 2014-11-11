@@ -22,7 +22,58 @@
                     <div class="grid_4_r">
                         <div class="on_now_img">
                             <div class="on_now">&nbsp;</div>
-                                <img src="images/bonfire_night.jpg" alt=""/>
+                              <img src="images/santa_special_s.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="grid_8">
+                        <h3>Santa Special Trains</h3>
+                        <br style="clear:left;"/>
+                        <div class="eventDate">
+                            <img src="images/clock.png" alt=""/>
+                            <p>December 13th, 14th &amp; 20th, 21st</p>
+                            <br style="clear:left;"/>
+                        </div>
+                        <br style="clear:left;"/>
+                        <p><b>See Santa on a Steam Train at Barry Island! And come to our Vintage Fairs!</b></p>
+                        <br>
+                        <p>Our Santa Special trains run on Saturday and Sunday <b>13<sup>th</sup>/14<sup>th</sup> December</b> &amp; Saturday and Sunday <b>20<sup>th</sup>/21<sup>st</sup> December</b>.</p>
+                        <br>
+                        <p>Trains depart on each of these days from Barry Island Station at <b>11.45, 13.30, 14.30 and 15.30hrs</b>.</p>
+                        <br>
+                        <p>The round trip takes 45mins and Santa visits each child on the train at their seat – so theres no need to queue!</p>
+                        <br>
+                        <p>Santa gives every child a present appropriate for their age and has plenty of time to talk to youngsters and to be informed of each child&#39;s christmas present list.</p>
+                        <br>
+                        <p>Mums and Dads, Grandparents and other people are welcome too!</p>
+                        <br>
+                        <p>Fares are &pound;8 adults, &pound;8 children over 1yr and &pound;4 children under 1yr.</p>
+                        <br>
+                        <p>Children receive a quality present &amp; soft drink and adults a glass of hot punch and a mince pie.</p>
+                        <br>
+                        <p>Our trains will be hauled by a <b>vintage 1937 Hunslet 0-6-0 steam loco</b> called JESSIE.</p>
+                        <br>
+                        <p>The carriages will be our railcar set called IRIS.</p>
+                        <br>
+                        <p>The carriages have electric heating so are very warm and cosy whatever the weather.</p>
+                        <br>
+                        <p>A vintage fair will be held at Barry Island Station on these days so there will also be the opportunity to get some old-fashioned and interesting presents.</p>
+                        <br>
+                        <p>If you'd like to book please call our Kathryn Kemp on telephone: <b>02920 511019</b>.</p>
+</p>
+                    </div>
+
+                    <br style="clear:left;"/>&nbsp;
+                </div>
+
+
+                <!-- <h4>Upcoming Events</h4> -->
+
+<!--           <h4>Past Events of 2014</h4>
+
+                <div class="upcoming_event">
+                     <div class="grid_3">
+                        <div class="backimg">
+                          <img src="images/bonfire_night.jpg" alt=""/>
                         </div>
                     </div>
                     <div class="grid_8">
@@ -53,36 +104,6 @@
 
                     <br style="clear:left;"/>&nbsp;
                 </div>
-
-
-                <h4>Upcoming Events</h4>
-
-                <div class="upcoming_event">
-                    <div class="grid_3">
-                        <div class="backimg">
-                            <img src="images/santa_special_s.jpg" alt=""/>
-                        </div>
-                    </div>
-                    <div class="grid_8">
-                        <h3>Santa Special Trains</h3>
-                        <br style="clear:left;"/>
-                        <div class="eventDate">
-                            <img src="images/clock.png" alt=""/>
-                            <p>December 13th, 14th &amp; 20th, 21st</p>
-                            <br style="clear:left;"/>
-                        </div>
-                        <br style="clear:left;"/>
-                        <p>Join Santa as we steam from Barry Island to the Waterfront.<br>
-                        <br>
-                        Every child receives a quality gift and adults are given a glass of hot mulled wine and a mince pie.<br>
-                        <br>
-                        Get into the traditional spirit of Christmas at the Barry Tourist Railway.</p>
-                    </div>
-
-                    <br style="clear:left;"/>&nbsp;
-                </div>
-
-<!--           <h4>Past Events of 2014</h4>
 
                 <div class="upcoming_event">
                      <div class="grid_3">

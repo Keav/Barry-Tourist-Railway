@@ -48,6 +48,11 @@
                     <h3>Dates & Times for 2014</h3>
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
                     <p class="trainTimes">11:45, 13:30, 14:30, and 15:30</p>
+
+                    <h3>Where to Buy</h3>
+                    <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
+                    <p class="santaSpecial">
+                        Tickets for special events and Santa Specials vary according to the nature of the event.</p>
                 </div>
 
 
@@ -189,14 +194,8 @@
                         <td>&nbsp;</td></tr>
                 </table>
 
-                <div class="trainServiceTop">
-                    <h3>Where to Buy</h3>
-                    <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
-                    <p class="santaSpecial">
-                        Tickets for special events and Santa Specials vary according to the nature of the event.</p>
-                </div>
                 <br style="clear:left;"/>
-
+                <div style="padding:20px;"></div>
 
                 <div class="pbRow">
                     <div class="pb-image">
@@ -207,7 +206,8 @@
 
                         <p>The Railway also takes half and full day private bookings, should you wish to charter a train privately.  For further information please contact us to discuss your requirements.
                         </p>
-                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under the careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
+                        <br>
+                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
 
                         </p></div>
 
