@@ -18,6 +18,12 @@
 
                 <h1>Next Event</h1>
 
+                <?php if (date('mY')>="032015") { ?>
+                  <h3>There are no more events scheduled.</h3>
+                <?php } ?>
+
+
+                <?php if (date('mY')<="022015") { ?>
                 <div class="on_now_event">
                     <div class="grid_4_r">
                         <div class="on_now_img">
@@ -64,6 +70,7 @@
 
                     <br style="clear:left;"/>&nbsp;
                 </div>
+                <?php } ?>
 
 
                 <!-- <h4>Upcoming Events</h4> -->
