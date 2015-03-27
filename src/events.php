@@ -1,3 +1,5 @@
+<?php include('includes/eventsdata.php'); ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,44 +18,22 @@
         <div class="contentSub" id="eventsPage">
             <div class="container">
 
-                <?php
-                $now = strtotime('now');
-
-                $events = array(
-                    '28-03-2015' => array(
-                        'eventtitle' => 'One',
-                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
-                        'eventimage' => 'santa_special_s',
-                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
-                    ),
-                    '01-04-2015' => array(
-                        'eventtitle' => 'Two',
-                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
-                        'eventimage' => 'santa_special_s',
-                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
-                    ),
-                    '01-05-2015' => array(
-                        'eventtitle' => 'Three',
-                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
-                        'eventimage' => 'santa_special_s',
-                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
-                    ),
-                );
-                ?>
+            <h1>2015 Events &amp; Operating Days</h1>
 
                 <h1>Next Event</h1>
 
+                <!-- Single next event block -->
                 <?php
                 $i = 0;
                 foreach ($events as $key => $value) {
-                  $event = strtotime($key);
-                  if ($now <= $event) {
-                    for (; $i == 0; $i++) { ?>
+                  $eventend = strtotime($key)+86399; //Last date of event plus 23 hours 59 minutes
+                  if ($now <= $eventend) {
+                    for (; $i === 0; $i++) { ?>
                       <div class="on_now_event">
                           <div class="grid_4_r">
                               <div class="on_now_img">
                                   <div class="on_now">&nbsp;</div>
-                                    <img src="images/<?= $value['eventimage'] ?>.jpg" alt=""/>
+                                    <img src="images/<?= $value['eventimage'] ?>" alt=""/>
                               </div>
                           </div>
                           <div class="grid_8">
@@ -71,29 +51,41 @@
                           <br style="clear:left;"/>&nbsp;
                       </div>
                   <?php } } } ?>
+                  <!-- End Single next event block -->
 
-<!--                  <h4>Upcoming Events</h4>
+                  <h4>Upcoming Events</h4>
 
-                <div class="upcoming_event">
-                     <div class="grid_3">
-                        <div class="backimg">
-                          <img src="images/<?= $value['eventimage'] ?>.jpg" alt=""/>
-                        </div>
-                    </div>
-                    <div class="grid_8">
-                        <h3><?= $value['eventtitle'] ?></h3>
-                        <br style="clear:left;"/>
-                        <div class="eventDate">
-                            <img src="images/clock.png" alt=""/>
-                            <p><?= $value['eventdate'] ?></p>
-                            <br style="clear:left;"/>
-                        </div>
-                        <br style="clear:left;"/>
-                        <p><?= $value['eventcontent'] ?></p>
-                    </div>
+                  <!-- All remaining events block -->
+                  <?php
+                  $x = 0;
+                  foreach ($events as $key => $value) {
+                    $eventend = strtotime($key)+86399; //Last date of event plus 23 hours 59 minutes
+                    if ($now <= $eventend) {
+                      $x++;
+                      if ($x < 2) continue; ?>
+                  <div class="upcoming_event">
+                       <div class="grid_3">
+                          <div class="backimg">
+                            <img src="images/<?= $value['eventimage'] ?>" alt=""/>
+                          </div>
+                      </div>
+                      <div class="grid_8">
+                          <h3><?= $value['eventtitle'] ?></h3>
+                          <br style="clear:left;"/>
+                          <div class="eventDate">
+                              <img src="images/clock.png" alt=""/>
+                              <p><?= $value['eventdate'] ?></p>
+                              <br style="clear:left;"/>
+                          </div>
+                          <br style="clear:left;"/>
+                          <p><?= $value['eventcontent'] ?></p>
+                      </div>
 
-                    <br style="clear:left;"/>&nbsp;
-                </div> -->
+                      <br style="clear:left;"/>&nbsp;
+                  </div>
+                  <?php } } ?>
+                  <!-- End All remaining events block -->
+
             </div>
         </div>
         <!--FOOTER-->

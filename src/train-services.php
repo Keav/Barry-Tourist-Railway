@@ -45,7 +45,7 @@
                 <div class="trainServiceTop">
                     <p>We operate services for passengers on dates throughout the year, using either our own trains, or one of our regular visiting steam locomotives.  At Barry we have a heritage 1957 Diesel Multiple Unit (DMU Class 101), called Iris II that we have refurbished and turned into a comfortable passenger environment.  We also have a Class 73 diesel locomotive, which can typically be seen hauling Mk 2f passenger coaches.</p>
 
-                    <h3>Dates & Times for 2014</h3>
+                    <h3>Dates &amp; Times for 2015</h3>
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
                     <p class="trainTimes">11:45, 13:30, 14:30, and 15:30</p>
 
@@ -86,10 +86,10 @@
                           <td>&nbsp;</td></tr> -->
 
                      <tr class="odd"><th><p>APRIL</p></th>
-                         <td class="special"><p>18<span>FRI</span></p></td>
-                         <td class="special"><p>19<span>SAT</span></p></td>
-                         <td class="special"><p>20<span>SUN</span></p></td>
-                         <td class="special"><p>21<span>MON</span></p></td>
+                         <td class="special"><p>3<span>FRI</span></p></td>
+                         <td class="special"><p>4<span>SAT</span></p></td>
+                         <td class="special"><p>5<span>SUN</span></p></td>
+                         <td class="special"><p>6<span>MON</span></p></td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
@@ -98,20 +98,20 @@
                          <td>&nbsp;</td></tr>
 
                      <tr class="odd"><th><p>MAY</p></th>
-                         <td><p>3<span>SAT</span></p></td>
-                         <td><p>4<span>SUN</span></p></td>
-                         <td><p>5<span>MON</span></p></td>
+                         <td><p>2<span>SAT</span></p></td>
+                         <td><p>3<span>SUN</span></p></td>
+                         <td><p>4<span>MON</span></p></td>
                          <td>&nbsp;</td>
-                         <td><p>24<span>SAT</span></p></td>
-                         <td><p>25<span>SUN</span></p></td>
-                         <td><p>26<span>MON</span></p></td>
+                         <td><p>23<span>SAT</span></p></td>
+                         <td><p>24<span>SUN</span></p></td>
+                         <td><p>25<span>MON</span></p></td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
 
                     <tr class="odd"><th><p>JUNE</p></th>
-                        <td class="special"><p>7<span>SAT</span></p></td>
-                        <td class="special"><p>8<span>SUN</span></p></td>
+                        <td class="special"><p>20<span>SAT</span></p></td>
+                        <td class="special"><p>21<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -122,36 +122,36 @@
                         <td>&nbsp;</td></tr>
 
                      <tr class="odd"><th><p>JULY</p></th>
-                         <td><p>19<span>SAT</span></p></td>
-                         <td><p>20<span>SUN</span></p></td>
+                         <td class="special"><p>25<span>SAT</span></p></td>
+                         <td class="special"><p>26<span>SUN</span></p></td>
                          <td>&nbsp;</td>
-                         <td class="special"><p>26<span>SAT</span></p></td>
-                         <td class="special"><p>27<span>SUN</span></p></td>
+                         <td>&nbsp;</td>
+                         <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
 
-                     <tr class="odd"><th><p>AUG</p></th>
-                        <td><p>2<span>SAT</span></p></td>
-                        <td class="special"><p>3<span>SUN</span></p></td>
+                     <tr class="odd"><th><p>AUGUST</p></th>
+                        <td><p>1<span>SAT</span></p></td>
+                        <td class="special"><p>2<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>9<span>SAT</span></p></td>
-                        <td class="special"><p>10<span>SUN</span></p></td>
+                        <td><p>8<span>SAT</span></p></td>
+                        <td><p>9<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>16<span>SAT</span></p></td>
-                        <td class="special"><p>17<span>SUN</span></p></td>
+                        <td><p>15<span>SAT</span></p></td>
+                        <td><p>16<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                        <tr class="odd"><th><p>AUG</p></th>
-                        <td><p>23<span>SAT</span></p></td>
-                        <td><p>24<span>SUN</span></p></td>
-                        <td><p>25<span>MON</span></p></td>
+                        <tr class="odd"><th><p>AUGUST</p></th>
+                        <td class="special"><p>22<span>SAT</span></p></td>
+                        <td class="special"><p>23<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>30<span>SAT</span></p></td>
-                        <td class="special"><p>31<span>SUN</span></p></td>
                         <td>&nbsp;</td>
+                        <td><p>29<span>SAT</span></p></td>
+                        <td><p>30<span>SUN</span></p></td>
+                        <td><p>31<span>MON</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -170,7 +170,7 @@
                         <td>&nbsp;</td></tr> -->
 
                     <tr class="odd"><th><p>NOVEMEBER</p></th>
-                        <td class="special"><p>5<span>WED</span></p></td>
+                        <td class="special"><p>5<span>THU</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -182,11 +182,11 @@
                         <td>&nbsp;</td></tr>
 
                     <tr class="odd"><th><p>DECEMBER</p></th>
-                        <td class="santa"><p>13<span>SAT</span></p></td>
-                        <td class="santa"><p>14<span>SUN</span></p></td>
+                        <td class="santa"><p>12<span>SAT</span></p></td>
+                        <td class="santa"><p>13<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="santa"><p>20<span>SAT</span></p></td>
-                        <td class="santa"><p>21<span>SUN</span></p></td>
+                        <td class="santa"><p>19<span>SAT</span></p></td>
+                        <td class="santa"><p>20<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>

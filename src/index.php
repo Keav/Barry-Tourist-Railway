@@ -1,3 +1,4 @@
+<?php include('includes/eventsdata.php'); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -60,37 +61,40 @@
         <div class="content" id="homePage">
 
             <div class="container">
-            <h1>What's On?</h1>
+            <h1>What&#39;s On?</h1>
 
+
+                <?php
+                  $x = 0;
+                  foreach ($events as $key => $value) {
+                    $eventend = strtotime($key)+86399; //Last date of event plus 23 hours 59 minutes
+                    if (($now <= $eventend) && ($x < 3)) {
+                      $x++;
+                      $eventid = 'event'.$x; ?>
                 <!--START EVENT 1-->
-                <div id="event1">
+                <div id="<?= $eventid ?>">
                     <div class="home_event">
                         <div class="grid_4_r">
                             <div class="on_now_img">
-                                <!--Event Image--> <img src="images/santa_special_s.jpg" alt=""/>
+                                <!--Event Image--> <img src="images/<?= $value['eventimage'] ?>" alt=""/>
                             </div>
                         </div>
                         <div class="grid_8">
-                            <!-- EVENT TITLE--> <h3>Santa Special Trains</h3>
+                            <!-- EVENT TITLE--> <h3><?= $value['eventtitle'] ?></h3>
                             <br style="clear:left;"/>
                             <div class="eventDate">
                                 <img src="images/clock.png" alt=""/>
-                                 <!-- EVENT DATE--> <p>December 13th, 14th &amp; 20th, 21st</p>
+                                 <!-- EVENT DATE--> <p><?= $value['eventdate'] ?></p>
                                 <br style="clear:left;"/>
                             </div>
                             <br style="clear:left;"/>
-                            <!-- EVENT CONTENT--> <p>Join Santa as we steam from Barry Island to the Waterfront.</p>
-                            <br>
-                            <p>Every child receives a quality gift and adults are given a glass of hot mulled wine and a mince pie.</p>
-                            <br>
-                            <p>Get into the traditional spirit of Christmas at the Barry Tourist Railway.</p>
-                            <br>
-                            <p>Please see our <a href="events.php">EVENTS</a> page for further details.</p>
+                            <!-- EVENT CONTENT--> <p><?= $value['eventcontent'] ?></p>
                         </div>
                         <br style="clear:left;"/>&nbsp;
                     </div>
                 </div>
                 <!--END EVENT 1-->
+                <?php } } ?>
 
                <!--EVENT NAVIGATION-->
 
@@ -98,12 +102,12 @@
                     <div   id="tab1" class="event_nav_1_active">
                        <a href="Javascript:void(0);" onclick="one()">&nbsp;</a>
                     </div>
-<!--                     <div  id="tab2" class="event_nav_2">
+                    <div  id="tab2" class="event_nav_2">
                         <a href="Javascript:void(0);" onclick="two();">&nbsp;</a>
-                    </div> -->
-                    <!-- <div  id="tab3" class="event_nav_3">
+                    </div>
+                    <div  id="tab3" class="event_nav_3">
                         <a href="Javascript:void(0);" onclick="three();">&nbsp;</a>
-                    </div> -->
+                    </div>
 
                     <br style="clear:left;"/>
                     <div class="viewAllEvents">
