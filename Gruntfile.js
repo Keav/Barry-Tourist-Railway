@@ -222,7 +222,15 @@ module.exports = function (grunt) {
                     'src/**/*.css', 'src/**/*.js', '!**/*.min.*'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/*.php',
+                dest: [
+                    'dist/index.php',
+                    'dist/events.php',
+                    'dist/about.php',
+                    'dist/history.php',
+                    'dist/news.php',
+                    'dist/train-services.php',
+                    'dist/contact-success.php',
+                    ],
             },
             prod: {
                 // Specific options, override the global ones
@@ -232,11 +240,11 @@ module.exports = function (grunt) {
                 // Files to hash
                 src: [
                     // WARNING: These files will be renamed!
-                    'dist/css/custom.min.css',
-                    'dist/js/custom.min.js'
+                    'dist/css/main.min.css',
+                    //'dist/js/custom.min.js'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/index.php',
+                dest: 'dist/*.php',
             }
         },
 
@@ -267,7 +275,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
+                    src: ['**/*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
                     dest: 'dist/',
                 }]
             },

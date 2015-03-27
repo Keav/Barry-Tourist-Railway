@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.min.cbb22272.css" />
         <title>News</title>
 
     </head>
@@ -16,6 +16,36 @@
         <div class="contentSub" id="newsPage">
             <div class="container">
                 <h1>News &amp; Updates</h1>
+
+<!-- ******************************** -->
+
+<h4>News for 2015</h4>
+
+<div class="news-item-row">
+    <div class="newsimg">
+        <div class="newsDate">
+            <p> 27 <span>MARCH</span></p>
+        </div>
+        <img src="images/red_arrows.jpg" alt=""/>
+    </div>
+    <div class="grid_8">
+        <h2>RAIL FAN BRINGS RED ARROWS TO BARRY ISLAND - AGAIN</h2>
+
+        <div class="container img-center">
+            <img src="images/red_arrows.jpg" alt="The Red Arrows">
+        </div>
+
+        <p>John Buxton, Managing Director of the Barry Tourist Railway Tourist Railway, is pleased to announce that he has again secured the Red Arrows and the Battle of Britain Memorial Flight for this year&#39;s &#8216;Barry at War&#8217; weekend. This year&#39;s event is to be held on Saturday 20th and Sunday 21st June centred on Barry Island Railway Station, the headquarters of the Barry Tourist Railway.</p>
+        <br>
+        <p>John said, &#8220;Last year&#39;s &#8216;Barry at War&#8217; event was a great success bringing over 40.000 people to Barry Island over our &#8216;Barry at War&#8217; weekend.  We&#39;re determined to make our 2015 event even better to mark the 70th Anniversary of the end of World War II. In this regard, the appearance of the WWII Avro Lancaster Bomber from the Battle of Britain Memorial Flight at our event will be particularly poignant&#8221;.</p>
+        <br>
+        <p>John went on to say, &#8220;We are keen to tell people about the history of Barry, particularly, the docks, the railway and the key role Barry played in the two World Wars&#39;. I am particularly proud of the &#8216;Barry at War Museum&#8217; that has been developed at Barry Island Station by our Barry at War Volunteer Group, headed up by Glenn Booker. This will be a key feature of the event with the re-enactors in period uniforms and dress, together with military and fashion displays, plus vintage stalls giving the station an authentic 1940&#39;s atmosphere. There&#39;s also a Jazz Festival going on!&#8221;</p>
+        <br>
+        <p>&#8220;Barry is a great place and we&#39;re so pleased that we have secured the Red Arrows and Avro Lancaster for our &#8216;Barry at War&#8217; event to help people understand more about the town&#39;s wartime history. This year, the Barry Tourist Railway and the Barry at War Museum will bring an additional 50,000 visitors to Barry to see and hear that story&#8221;, John concluded.</p>
+    </div>
+
+    <br style="clear:left;"/>&nbsp;
+</div>
 
 <!-- ******************************** -->
 
@@ -39,7 +69,7 @@
         <br>
         <p>Early application is essential, so John filled out and sent off all the necessary documentation eighteen months in advance. He also realized that he would need to put a good case forward as competition from other venues in the UK is extremely strong. The application built not only on the success of previous &#8216;Barry at War&#8217; events, but also the programme planned for 2014, which commemorates the centenary of the First World War. In addition, John garnered the support of local MP, Alun Cairns, AM Jane Hutt and Councillor Lis Burnett who wrote letters of support in respect of the application. &#8216;I&#39;m very thankful for the backing given by Alun, Jane, Lis and the Vale of Glamorgan Council in this regard and I&#39;m also grateful to Ade Pitman and the Barry Town Council, without whom the event would not have been possible&#8217;, said John.</p>
         <br>
-        <p>&#8220;I was so excited&#8217; when early in 2014 I heard that our request had been successful subject to addressing a number of key operational issues, the most significant being arranging the display without conflicting with the flight path of the nearby busy, Cardiff Airport&#8217;, added John.</p>
+        <p>&#8220;I was so excited when early in 2014 I heard that our request had been successful subject to addressing a number of key operational issues, the most significant being arranging the display without conflicting with the flight path of the nearby busy, Cardiff Airport&#8217;, added John.</p>
         <br>
         <p>&#8216;We kept the event fairly low-key until we were recently advised that all operational issues had been addressed. In addition, we&#39;re also hoping to get a fly-past of the Battle of Britain Memorial flight Dakota aircraft on Sunday 31st August.  Now we are promoting the display but frankly the fact that the Red Arrows are coming is the greatest promotion you could ever wish for&#8217;, said John. &#8216;This is the biggest event I&#39;ve ever been involved with. As sponsor of the Red Arrows display, this is a substantial investment on my part, but its something I&#39;ve wanted to do for Barry for a long time!&#8217;</p>
 

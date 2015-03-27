@@ -67,7 +67,7 @@
                 <?php
                   $x = 0;
                   foreach ($events as $key => $value) {
-                    $eventend = strtotime($key)+86399; //Last date of event plus 23 hours 59 minutes
+                    $eventend = strtotime($key)+86399;
                     if (($now <= $eventend) && ($x < 3)) {
                       $x++;
                       $eventid = 'event'.$x; ?>

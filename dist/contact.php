@@ -1,6 +1,5 @@
 <?php
 
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 //gather variables from contactform
     $cf_first_name = htmlentities($_POST['cf_first_name']);
@@ -69,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.min.cbb22272.css" />
         <title>Contact</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -139,11 +138,11 @@ height:500px;
 
 
                     <label>FORENAME</label>
-                    <input type="text" name="cf_first_name" value="<?php echo $cf_first_name; ?>" class="contact-form-input"  />
+                    <input type="text" name="cf_first_name" value="<?php if (isset($cf_first_name)) { echo $cf_first_name; } ?>" class="contact-form-input"  />
 
                     <br style="clear:left;"/>
                     <?php
-                    if ($cf_first_name_error) {
+                    if (isset($cf_first_name_error)) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_first_name_error);
                         echo "</p>";
@@ -152,10 +151,10 @@ height:500px;
 
                     <label>SURNAME</label>
 
-                    <input type="text" name="cf_last_name" value="<?php echo $cf_last_name; ?>" class="contact-form-input" />
+                    <input type="text" name="cf_last_name" value="<?php if (isset($cf_last_name)) { echo $cf_last_name; } ?>" class="contact-form-input" />
                     <br style="clear:left;"/>
                     <?php
-                    if ($cf_last_name_error) {
+                    if (isset($cf_last_name_error)) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_last_name_error);
                         echo "</p>";
@@ -167,10 +166,10 @@ height:500px;
                     <label>EMAIL</label>
 
 
-                    <input type="text" name="cf_email" value="<?php echo $cf_email; ?>" class="contact-form-input"/>
+                    <input type="text" name="cf_email" value="<?php if (isset($cf_email)) { echo $cf_email; } ?>" class="contact-form-input"/>
                     <br style="clear:left;"/>
                     <?php
-                    if ($cf_email_error) {
+                    if (isset($cf_email_error)) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_email_error);
                         echo "</p>";
@@ -180,10 +179,10 @@ height:500px;
                     <label>TELEPHONE</label>
 
 
-                    <input type="text" name="cf_phone" value="<?php echo $cf_phone; ?>" class="contact-form-input" />
+                    <input type="text" name="cf_phone" value="<?php if (isset($cf_phone)) { echo $cf_phone; } ?>" class="contact-form-input" />
                     <br style="clear:left;"/>
                     <?php
-                    if ($cf_phone_error) {
+                    if (isset($cf_phone_error)) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_phone_error);
                         echo "</p>";
@@ -192,10 +191,10 @@ height:500px;
 
                     <label>MESSAGE</label>
 
-                    <textarea rows="0" cols="0" class="contact-form-textbox"  name="cf_comments"><?php echo $cf_comments; ?></textarea>
+                    <textarea rows="0" cols="0" class="contact-form-textbox"  name="cf_comments"><?php if (isset($cf_comments)) { echo $cf_comments; } ?></textarea>
                     <br style="clear:left;"/>
                     <?php
-                    if ($cf_comments_error) {
+                    if (isset($cf_comments_error)) {
                         echo "<p class=\"form-field-error\">";
                         echo strtoupper($cf_comments_error);
                         echo "</p>";
