@@ -16,50 +16,90 @@
         <div class="contentSub" id="eventsPage">
             <div class="container">
 
-                <h1>Next Event</h1>
-
-                <!-- Set up array -->
                 <?php
-
                 $now = strtotime('now');
 
                 $events = array(
-                    '01-03-2014' => array(
-                        'name' => 'John Doe',
-                        'email' => 'john@example.com'
+                    '28-03-2015' => array(
+                        'eventtitle' => 'One',
+                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
+                        'eventimage' => 'santa_special_s',
+                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
                     ),
                     '01-04-2015' => array(
-                        'name' => 'Jane Doe',
-                        'email' => 'jane@example.com'
+                        'eventtitle' => 'Two',
+                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
+                        'eventimage' => 'santa_special_s',
+                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
+                    ),
+                    '01-05-2015' => array(
+                        'eventtitle' => 'Three',
+                        'eventdate' => 'December 13th, 14th &amp; 20th, 21st',
+                        'eventimage' => 'santa_special_s',
+                        'eventcontent' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsa fuga itaque voluptas at id eligendi, quo soluta, harum, officia et magnam iure commodi distinctio dolore alias delectus natus iste?'
                     ),
                 );
+                ?>
 
+                <h1>Next Event</h1>
+
+                <?php
+                $i = 0;
                 foreach ($events as $key => $value) {
                   $event = strtotime($key);
-                  if ($now <= $event) { ?>
-                     <p>The key is <?= ($key) ?></p>
-                     <p>The name is <?= $value['name'] ?></p>
-                     <p>The email is <?= $value['email'] ?></p>
-                     <br>
-                <?php } } ?>
+                  if ($now <= $event) {
+                    for (; $i == 0; $i++) { ?>
+                      <div class="on_now_event">
+                          <div class="grid_4_r">
+                              <div class="on_now_img">
+                                  <div class="on_now">&nbsp;</div>
+                                    <img src="images/<?= $value['eventimage'] ?>.jpg" alt=""/>
+                              </div>
+                          </div>
+                          <div class="grid_8">
+                              <h3><?= $value['eventtitle'] ?></h3>
+                              <br style="clear:left;"/>
+                              <div class="eventDate">
+                                  <img src="images/clock.png" alt=""/>
+                                  <p><?= $value['eventdate'] ?></p>
+                                  <br style="clear:left;"/>
+                              </div>
+                              <br style="clear:left;"/>
+                              <p><?= $value['eventcontent'] ?></p>
+                          </div>
 
-                <p>Now is <?= $now ?></p>
-                <p>Now is <?= $event ?></p>
+                          <br style="clear:left;"/>&nbsp;
+                      </div>
+                  <?php } } } ?>
 
-                <br>
+<!--                  <h4>Upcoming Events</h4>
 
-                <?php if (date('mY')>="032015") { ?>
-                  <h3>There are no more events scheduled.</h3>
-                <?php } ?>
+                <div class="upcoming_event">
+                     <div class="grid_3">
+                        <div class="backimg">
+                          <img src="images/<?= $value['eventimage'] ?>.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="grid_8">
+                        <h3><?= $value['eventtitle'] ?></h3>
+                        <br style="clear:left;"/>
+                        <div class="eventDate">
+                            <img src="images/clock.png" alt=""/>
+                            <p><?= $value['eventdate'] ?></p>
+                            <br style="clear:left;"/>
+                        </div>
+                        <br style="clear:left;"/>
+                        <p><?= $value['eventcontent'] ?></p>
+                    </div>
 
+                    <br style="clear:left;"/>&nbsp;
+                </div> -->
             </div>
-
         </div>
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
         </div>
         <!--FOOTER-->
-
     </body>
 </html>
