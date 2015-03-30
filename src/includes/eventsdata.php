@@ -20,6 +20,12 @@
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => ''
         ),
+        '18-04-2015' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday April 18th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
         '02-05-2015' => array(
             'eventtitle' => 'Normal Operating Day',
             'eventdate' => 'Saturday May 2nd',
@@ -36,6 +42,12 @@
             'eventtitle' => 'Normal Operating Day',
             'eventdate' => 'Monday May 4th',
             'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+        '09-05-2015' => array(
+            'eventtitle' => 'Normal Operating Day &amp; VE Day 70th Anniversary Event',
+            'eventdate' => 'Saturday May 9th',
+            'eventimage' => 'barry_at_war_2012_tn.jpg',
             'eventcontent' => ''
         ),
         '23-05-2015' => array(

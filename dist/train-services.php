@@ -47,7 +47,8 @@
 
                     <h3>Dates &amp; Times for 2015</h3>
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
-                    <p class="trainTimes">11:45, 13:30, 14:30, and 15:30</p>
+                    <p class="trainTimes">11:35, 13:10, 14:10, and 15:10</p>
+                    <p>Times may be subject to change.</p>
 
                     <h3>Where to Buy</h3>
                     <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
@@ -58,11 +59,11 @@
 
                 <div class="grid_3_r" id="ticketPrices">
                     <img src="images/tickets.jpg" alt=""/>
-                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£6</p>
+                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£7</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£3.50</p>
+                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£4</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£14</p>
+                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£15</p>
                     <br style="clear:both;"/>
                 </div>
                 <br style="clear:left;"/>
@@ -91,7 +92,7 @@
                          <td class="special"><p>5<span>SUN</span></p></td>
                          <td class="special"><p>6<span>MON</span></p></td>
                          <td>&nbsp;</td>
-                         <td>&nbsp;</td>
+                         <td><p>18<span>SAT</span></p></td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
@@ -102,11 +103,11 @@
                          <td><p>3<span>SUN</span></p></td>
                          <td><p>4<span>MON</span></p></td>
                          <td>&nbsp;</td>
+                         <td class="special"><p>9<span>SAT</span></p></td>
+                         <td>&nbsp;</td>
                          <td><p>23<span>SAT</span></p></td>
                          <td><p>24<span>SUN</span></p></td>
                          <td><p>25<span>MON</span></p></td>
-                         <td>&nbsp;</td>
-                         <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
 
                     <tr class="odd"><th><p>JUNE</p></th>

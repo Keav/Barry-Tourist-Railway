@@ -230,7 +230,7 @@ module.exports = function (grunt) {
                     'dist/news.php',
                     'dist/train-services.php',
                     'dist/contact-success.php',
-                    ],
+                ],
             },
             prod: {
                 // Specific options, override the global ones
@@ -275,7 +275,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
+                    src: ['*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
                     dest: 'dist/',
                 }]
             },
