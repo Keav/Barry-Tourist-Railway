@@ -252,6 +252,7 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
                     src: [
                         '**/*',
@@ -274,8 +275,9 @@ module.exports = function (grunt) {
             others: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
-                    src: ['*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
+                    src: ['**/*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
                     dest: 'dist/',
                 }]
             },
@@ -362,7 +364,7 @@ module.exports = function (grunt) {
     //grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'copy', 'string-replace']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 
