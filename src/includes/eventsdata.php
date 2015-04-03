@@ -6,19 +6,19 @@
             'eventtitle' => 'Easter Bunny Trains',
             'eventdate' => 'Good Friday April 3rd &amp; Easter Saturday April 4th',
             'eventimage' => 'easter_bunnies.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Caf&#233; will be open for all.'
         ),
         '05-04-2015' => array(
             'eventtitle' => 'Easter Bunny Trains &amp; Vintage Fair',
             'eventdate' => 'Easter Sunday April 5th',
             'eventimage' => 'easter_bunnies.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Caf&#233; will be open for all.</p><br><p>There will also be a Vintage Fair at Barry Island Station, so do come along and have a look!'
         ),
         '06-04-2015' => array(
             'eventtitle' => 'Easter Bunny Trains',
             'eventdate' => 'Easter Monday April 6th',
             'eventimage' => 'easter_bunnies.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Caf&#233; will be open for all.'
         ),
         '18-04-2015' => array(
             'eventtitle' => 'Normal Operating Day',
