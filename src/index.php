@@ -1,4 +1,5 @@
 <?php include('includes/eventsdata.php'); ?>
+<?php include('includes/newsdata.php'); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -117,6 +118,40 @@
                 <br style="clear:right;"/>
 
                 <!--END EVENT NAVIGATION-->
+
+                <!-- LATEST NEWS ITEM -->
+
+                <?php
+                $i = 0;
+                foreach ($news as $key => $value) {
+                  $releasedate = strtotime($key);
+                  if ($now >= $releasedate) {
+                    for (; $i === 0; $i++) { ?>
+
+                    <h1>Latest News</h1>
+
+                    <div class="news-item-row">
+                        <div class="newsimg">
+                            <div class="newsDate">
+                                <p> <?= $value['newsdate'] ?></p>
+                            </div>
+                            <img src="images/<?= $value['newsimage'] ?>" alt=""/>
+                        </div>
+                        <div class="grid_8">
+                            <h2><?= $value['newstitle'] ?></h2>
+
+                            <div class="container img-center">
+                                <img src="images/<?= $value['newsimage'] ?>" alt="The Red Arrows">
+                            </div>
+
+                            <p><?= $value['newscontent'] ?></p>
+                        </div>
+
+                        <br style="clear:left;"/>&nbsp;
+                    </div>
+                <?php } } } ?>
+
+                <!-- END LATEST NEWS ITEM -->
 
 
                 <div class="homeLinks">
