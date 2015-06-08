@@ -4,16 +4,27 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.cbb22272.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.min.307920dd.css" />
         <title>About</title>
 
 
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
+
         <div class="contentSub" >
             <div class="container" id="aboutPage">
                 <h1>About</h1>

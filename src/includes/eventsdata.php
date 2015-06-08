@@ -70,7 +70,7 @@
         ),
         '14-06-2015' => array(
             'eventtitle' => 'Barry Festival of Transport &amp; Vintage Fair',
-            'eventdate' => 'TBA',
+            'eventdate' => 'Sunday June 14th',
             'eventimage' => 'barry_at_war.jpg',
             'eventcontent' => ''
         ),
@@ -81,7 +81,7 @@
             'eventcontent' => ''
         ),
         '21-06-2015' => array(
-            'eventtitle' => 'Barry at War Weekend - Battle of Britain Memorial Fly-Past',
+            'eventtitle' => 'Barry at War Weekend',
             'eventdate' => 'Sunday June 21st',
             'eventimage' => 'barry_at_war_2012_tn.jpg',
             'eventcontent' => ''

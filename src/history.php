@@ -9,12 +9,21 @@
 
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
+        <!--HEADER-->
         <div id="header">
-
             <?php include('includes/header.php'); ?>
-
         </div>
+        <!--HEADER-->
+
         <div class="historyContent">
             <div class="container">
                 <h1>History</h1>

@@ -10,10 +10,21 @@
 
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
+
         <div class="contentSub" >
             <div class="container" id="aboutPage">
                 <h1>About</h1>

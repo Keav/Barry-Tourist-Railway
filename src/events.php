@@ -1,6 +1,5 @@
-<?php include('includes/eventsdata.php'); ?>
-
 <!DOCTYPE html>
+<?php include('includes/eventsdata.php'); ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -11,10 +10,21 @@
         <title>Events</title>
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
+
         <div class="contentSub" id="eventsPage">
             <div class="container">
 

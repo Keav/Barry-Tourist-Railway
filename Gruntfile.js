@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         clean: {
-            build: ['dist/css/custom**.*', 'dist/js/custom**.*'],
+            build: ['dist/css/main**.*', 'dist/js/custom**.*'],
         },
 
         imagemin: {
@@ -85,7 +85,7 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: { // Dictionary of files
-                    'dist/index.html': 'src/index.html', // 'destination': 'source'
+                    // 'dist/index.html': 'src/index.html', // 'destination': 'source'
                     'dist/index.php' : 'src/index.php'
                 }
             },
@@ -229,6 +229,7 @@ module.exports = function (grunt) {
                     'dist/history.php',
                     'dist/news.php',
                     'dist/train-services.php',
+                    'dist/contact.php',
                     'dist/contact-success.php',
                 ],
             },
@@ -350,7 +351,7 @@ module.exports = function (grunt) {
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['connect', 'watch']);
+    grunt.registerTask('default', ['watch']);
 
     // CSS tasks.
     grunt.registerTask('buildcss', ['sass', 'cssmin']);
@@ -364,7 +365,7 @@ module.exports = function (grunt) {
     //grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'copy', 'string-replace']);
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 

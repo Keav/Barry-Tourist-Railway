@@ -4,17 +4,24 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.cbb22272.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.min.307920dd.css" />
         <title>Train Services</title>
 
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
         <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
-
         <!--HEADER-->
 
         <div class="contentSub" id="trainServices">
@@ -86,7 +93,7 @@
                           <td>&nbsp;</td>
                           <td>&nbsp;</td></tr> -->
 
-                     <tr class="odd"><th><p>APRIL</p></th>
+                     <tr class="even"><th><p>APRIL</p></th>
                          <td class="special"><p>3<span>FRI</span></p></td>
                          <td class="special"><p>4<span>SAT</span></p></td>
                          <td class="special"><p>5<span>SUN</span></p></td>
@@ -110,7 +117,7 @@
                          <td><p>25<span>MON</span></p></td>
                          <td>&nbsp;</td></tr>
 
-                    <tr class="odd"><th><p>JUNE</p></th>
+                    <tr class="even"><th><p>JUNE</p></th>
                         <td class="special"><p>20<span>SAT</span></p></td>
                         <td class="special"><p>21<span>SUN</span></p></td>
                         <td>&nbsp;</td>
@@ -134,7 +141,7 @@
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
 
-                     <tr class="odd"><th><p>AUGUST</p></th>
+                     <tr class="even"><th><p>AUGUST</p></th>
                         <td><p>1<span>SAT</span></p></td>
                         <td class="special"><p>2<span>SUN</span></p></td>
                         <td>&nbsp;</td>
@@ -145,7 +152,8 @@
                         <td><p>16<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                        <tr class="odd"><th><p>AUGUST</p></th>
+
+                        <tr class="even"><th><p>AUGUST</p></th>
                         <td class="special"><p>22<span>SAT</span></p></td>
                         <td class="special"><p>23<span>SUN</span></p></td>
                         <td>&nbsp;</td>
@@ -182,7 +190,7 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
 
-                    <tr class="odd"><th><p>DECEMBER</p></th>
+                    <tr class="even"><th><p>DECEMBER</p></th>
                         <td class="santa"><p>12<span>SAT</span></p></td>
                         <td class="santa"><p>13<span>SUN</span></p></td>
                         <td>&nbsp;</td>

@@ -1,6 +1,5 @@
-<?php include('includes/eventsdata.php'); ?>
-<?php include('includes/newsdata.php'); ?>
 <!DOCTYPE html>
+<?php include('includes/eventsdata.php'); ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -10,9 +9,12 @@
         <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
         <link href="css/glyphicon.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+<!--         <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="owl-carousel/owl.transitions.css"> -->
         <!--<script type="text/javascript" src="js/jquery.js"></script>-->
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
+<!--         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script> -->
         <title>Barry Tourist Railway</title>
         <script type="text/javascript">
             function one() {
@@ -52,6 +54,15 @@
         </script>
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
+
         <!--HEADER-->
         <div id="headerHome">
             <?php include('includes/header-home.php'); ?>
@@ -62,7 +73,47 @@
         <div class="content" id="homePage">
 
             <div class="container">
+                <div class="homeLinks">
+                    <a href="about.php"><img src="images/about-the-railway.jpg" alt=""/></a>
+                    <a href="http://www.flickr.com/photos/barrytouristrailway/" target="_blank"><img src="images/view-the-gallery.jpg" alt=""/></a>
+                    <a href="news.php"><img src="images/read-the-news.jpg" alt=""/></a>
+                    <a href="train-services.php"><img src="images/take-the-train.jpg" alt="" id="end"/></a>
+                </div>
+            </div>
+
+        <div class="hrr" style="margin-top:30px;margin-bottom:30px;"></div>
+
+            <div class="container">
             <h1>What&#39;s On?</h1>
+
+                <h4 style="border:none;margin-bottom:0;">June 20<sup>th</sup> &amp; 21<sup>st</sup> - Barry Wartime Weekend</h4>
+
+                <p>Over the weekend of June 20<sup>th</sup> &amp; 21<sup>st</sup>, we at the Barry Tourist Railway have our biggest event of the year.</p>
+                <br>
+                <p>We have booked the <b>Red Arrows</b> on the Saturday (at 12:00) and a Battle of Britain Memorial fly-past on the Sunday.</p>
+                <br>
+               <p>We will be running Class 73 electro-diesel, 73118, with our Gatwick Express push pull set, with an extra coach this year! There will be a continuous shuttle service from the Waterfront Station at Hood Road Barry to Barry Island Station departing every 15 minutes from 09:15hrs until 12:00hrs (this being the last train to get you to Barry Island in time to see the <b>Red Arrows</b> whose display starts <b>12:00hrs</b>).</p>
+
+                <!-- <div id="owl-demo" class="owl-carousel owl-theme"> -->
+                    <div class="item flow">
+                        <img src="images/red_arrows.jpg" alt="">
+                    </div>
+<!--                     <div class="item">
+                        <img src="images/met_1_tank_loco.jpg" alt="">
+                    </div> -->
+                <!-- </div> -->
+
+                <p>If you&#39;re planning to come to our event and to see the Red Arrows, we recommend that you come to the Waterfront site and park at the car park there or the overflow car park at the nearby Innovation Quarter and catch the shuttle train. The only road to the Island, Harbour Road is likely to be jammed. <b>Park and Ride on the train costs &#163;5 for a car with up to 5 passengers and &#163;10 for a car &#47; MPV with 6 - 10 passengers</b>... not much more than the car parking charge at the car parks on the Island.</p>
+                <br>
+                <p>The next service after the Red Arrows display from Barry Island will depart at 12:50hrs and arrive at the Waterfront at 12:55hrs. The shuttle service will then recommence from the Waterfront to Barry Island at 13:00hrs with a 15 minute shuttle service to&#47;from the Island, which will operate until the last train - the 16:15hrs departure from Barry Island to the Waterfront.</p>
+                <br>
+                <p>For more information, you can also visit the <b>Barry at War Group</b>&#39;s website <a href="http://www.barryatwar.info/wartime-weekend">www.barryatwar.info/wartime-weekend</a> and of course, our <a href="train-services.php">TRAIN SERVICES</a> and <a href="events.php">EVENTS</a> pages.</p>
+            </div>
+
+            <div class="hrr" style="margin-top:40px;margin-bottom:40px;"></div>
+
+            <div class="container">
+            <h1>Coming Up...</h1>
 
 
                 <?php
@@ -125,7 +176,7 @@
                 $i = 0;
                 foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if ($now >= $releasedate) {
+                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) {
                     for (; $i === 0; $i++) { ?>
 
                     <h1>Latest News</h1>
@@ -172,5 +223,22 @@
             <?php include('includes/footer.php'); ?>
         </div>
         <!--FOOTER-->
+
+<!--         <script src="owl-carousel/owl.carousel.js"></script>
+
+        <script>
+        // Initialize and setup Owl Image Carousel
+        $(document).ready(function() {
+        var owl = $("#owl-demo");
+
+        owl.owlCarousel({
+            autoPlay: 10000,
+            navigation : false,
+            pagination:true,
+            singleItem : true,
+            transitionStyle : "fade",
+            });
+        });
+        </script> -->
     </body>
 </html>

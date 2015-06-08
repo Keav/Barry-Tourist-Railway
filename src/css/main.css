@@ -11,7 +11,6 @@ body{
     margin:0 auto;
 }
 
-
 .contentSub{
 
     background:#DCD8D1;
@@ -60,6 +59,27 @@ p{
 }
 
 /* Styles added by Chris Keavey */
+
+/** {
+  box-sizing: border-box;
+}*/
+
+.flow {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.homeLinks img, .contact-form-submit {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+.homeLinks img:hover, .contact-form-submit:hover {
+  box-shadow: 0 -12px 12px -12px rgba(0, 0, 0, 0.6),
+              0 12px 12px -12px rgba(0, 0, 0, 0.6);
+}
 
 hr {
     width:1040px;
@@ -232,15 +252,38 @@ font-family: 'PT Sans', sans-serif;*/
 .left{
     float:left;
 }
-#view_gallery a:link, #view_gallery a:visited{
-    display:block;
-    width:141px;
-    height:30px;
-    margin-left:293px;
 
-    background:url('../images/viewGallery.jpg') no-repeat;
+#view_gallery {
+  /*height: 30px;*/
+    width: 192px;
+    margin-left: 231px;
+    background: #40A547;
+    padding: 9px 6px;
+    background:url('../images/link-background.jpg') repeat;
+
 }
 
+#view_gallery p {
+    color: #fff;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+#view_gallery a:link, #view_gallery a:visited {
+    display:block;
+    /*width:435px;*/
+    /*height:20px;*/
+    text-align:right;
+    vertical-align: center;
+    padding:0;
+    /*margin-left:293px;*/
+    /*background:url('../images/link-background.jpg') no-repeat;*/
+  }
+
+#view_gallery a:hover {
+    color: #fff;
+  text-decoration: underline;
+}
 
 .on_now{
     width:90px;
@@ -372,11 +415,14 @@ font-family: 'PT Sans', sans-serif;*/
 }
 
 
-
-
-.homeLinks{
-    padding:79px 0 0 0;
+.homeLinks {
+  padding: 79px 0 0 0;
 }
+
+.homeLinks:first-of-type {
+    padding: 30px 0 28px 0;
+}
+
 .homeLinks img{
 
     margin-right:50px;
@@ -396,10 +442,15 @@ font-family: 'PT Sans', sans-serif;*/
     color:#40A446;
     font-family: 'PT Sans', sans-serif;
 }
-p a:link, p a:visited{
-    font-size: 14px;
+p a:link, p a:visited {
+    font-size: 16px;
 }
-.viewAllEvents a:hover{
+
+.sitelink p a {
+  font-size:14px;
+}
+
+p a:hover, .viewAllEvents a:hover {
     text-decoration: underline;
 }
 #event2, #event3{
@@ -647,6 +698,23 @@ float:left;
 }
 
 /*FOOTER*/
+
+.twitterIcon, .fbIcon, .flicklrIcon {
+  font-family: 'FontAwesome';
+}
+
+.twitterIcon {
+    content: '\f015';
+}
+
+.fbIcon {
+    content: '\f0e0';
+}
+
+.flickrIcon {
+    content: '\f095';
+}
+
 .twitterIcon a:link, .twitterIcon a:visited{
     display:block;
     background:url('../images/twitter-icon.png') no-repeat;

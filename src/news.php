@@ -1,5 +1,3 @@
-<?php include('includes/newsdata.php'); ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,10 +9,21 @@
 
     </head>
     <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
 
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
+
         <div class="contentSub" id="newsPage">
             <div class="container">
                 <h1>News &amp; Updates</h1>
