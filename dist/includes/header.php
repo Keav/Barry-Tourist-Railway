@@ -14,7 +14,6 @@
                 <li><a href="history.php">HISTORY</a></li>
                 <li><a href="about.php">ABOUT</a></li>
                 <li><a href="news.php">NEWS</a>
-
                 <?php
                   $i = 0;
                   foreach ($news as $key => $value) {
@@ -23,7 +22,6 @@
                       for (; $i === 0; $i++) { ?>
                         <sup style="color:#f00;font-weight:bold;">NEW</sup>
                 <?php } } } ?>
-
                 </li>
                 <li id="tabEnd"><a href="contact.php">CONTACT</a></li>
             </ul>

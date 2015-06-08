@@ -5,7 +5,6 @@
             <?php include ('includes/flickr.php'); ?>
         </div>
         <div id="view_gallery" >
-            <!-- <a href="http://www.flickr.com/photos/barrytouristrailway/" target="_blank">&nbsp;</a> -->
             <a href="http://www.flickr.com/photos/barrytouristrailway/" target="_blank"><p>Visit our Flickr Photostream</p></a>
         </div>
 

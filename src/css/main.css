@@ -1,11 +1,33 @@
 @import url('reset.css');
-*
-{
+* {
     font-style:normal;
 }
-body{
-    background:#7D7669;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+body{
+  background: #7D7669;
+}
+
+#map_canvas {
+  width: 500px;
+  height: 500px;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map_canvas {
+    height: 650px;
+  }
+}
+
 .container{
     width:940px;
     margin:0 auto;
