@@ -205,7 +205,6 @@ sup {
     background: #DCD8D1 url('../images/header_bg.jpg') repeat-x;
     height:430px;
     min-width: 1040px;
-
 }
 .HeaderContainer{
     width:1040px;
@@ -214,9 +213,7 @@ sup {
     background:url('../images/subheaderBack.png') no-repeat top right;
     background-position: right 20px;
 }
-.HeaderContainerHome{
-    width:1040px;
-    margin:0 auto;
+#headerHome .HeaderContainer{
     height:430px;
     background:url('../images/headerBack.png') no-repeat top right;
     background-position: right 20px;

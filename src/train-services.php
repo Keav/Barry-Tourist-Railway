@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <title>Train Services</title>
 
+<html lang="en">
+
+    <head>
+        <?php include('includes/head.php'); ?>
+
+        <title>Train Services</title>
     </head>
+
     <body>
         <?php
           switch($_SERVER['SERVER_NAME'])
@@ -63,7 +63,6 @@
                         Tickets for special events and Santa Specials vary according to the nature of the event.</p>
                 </div>
 
-
                 <div class="grid_3_r" id="ticketPrices">
                     <img src="images/tickets.jpg" alt=""/>
                     <p class="ticketType">ADULTS</p><p class="ticketPrice">£7</p>
@@ -81,7 +80,6 @@
                     <br style="clear:left;"/>
                 </div>
                 <br style="clear:right;"/>
-
 
                 <table class="trainServicTable" >
                      <!-- <tr class="odd"><th><p>MARCH</p></th>
@@ -217,21 +215,13 @@
                         </p>
                         <br>
                         <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
-
                         </p></div>
-
                     <br style="clear:left;"/>&nbsp;
-
                 </div>
-
-
-
-
                 <br style="clear:left;"/>
-
             </div>
-
         </div>
+
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
