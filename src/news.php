@@ -1,26 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title>News</title>
 
+<html lang="en">
+
+    <head>
+        <?php include('includes/head.php'); ?>
+
+        <title>News</title>
     </head>
     <body>
 
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
+
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
+
         <div class="contentSub" id="newsPage">
             <div class="container">
                 <h1>News &amp; Updates</h1>
 
 <!-- ******************************** -->
 
-<h4>News for 2014</h4>                
+                <?php
+                $i = 0;
+                foreach ($news as $key => $value) {
+                  $releasedate = strtotime($key);
+                  if ($now >= $releasedate) {
+                    for (; $i === 0; $i++) { ?>
+
+                    <h4>News for 2015</h4>
+
+<div class="news-item-row">
+    <div class="newsimg">
+        <div class="newsDate">
+            <p> <?= $value['newsdate'] ?></p>
+        </div>
+        <img src="images/<?= $value['newsimage'] ?>" alt="News Image" />
+    </div>
+
+    <div class="grid_8">
+        <h2><?= $value['newstitle'] ?></h2>
+
+        <div class="container img-center">
+            <img src="images/<?= $value['newsimage'] ?>" alt="The Red Arrows">
+        </div>
+
+        <p><?= $value['newscontent'] ?></p>
+    </div>
+
+    <br style="clear:left;"/>&nbsp;
+</div>
+<?php } } } ?>
+
+<!-- ******************************** -->
+
+<h4>News for 2014</h4>
 
 <div class="news-item-row">
     <div class="newsimg">
@@ -29,18 +72,19 @@
         </div>
         <img src="images/red_arrows.jpg" alt=""/>
     </div>
+
     <div class="grid_8">
         <h2>RAIL FAN BRINGS RED ARROWS TO BARRY ISLAND</h2>
 
         <div class="container img-center">
-                    <img src="images/red_arrows.jpg" alt="The Red Arrows">
-                </div>
+            <img src="images/red_arrows.jpg" alt="The Red Arrows">
+        </div>
 
         <p>John Buxton, the man who has brought life back to the Tourist Railway in Barry, has been a big fan of the Red Arrows since childhood. When planning this years &#39;Barry at War&#39; weekend, he was determined to make the event the biggest and best so far, so he made an early application to the RAF Display Team to secure the Red Arrows for Barry Island.</p>
         <br>
         <p>Early application is essential, so John filled out and sent off all the necessary documentation eighteen months in advance. He also realized that he would need to put a good case forward as competition from other venues in the UK is extremely strong. The application built not only on the success of previous &#8216;Barry at War&#8217; events, but also the programme planned for 2014, which commemorates the centenary of the First World War. In addition, John garnered the support of local MP, Alun Cairns, AM Jane Hutt and Councillor Lis Burnett who wrote letters of support in respect of the application. &#8216;I&#39;m very thankful for the backing given by Alun, Jane, Lis and the Vale of Glamorgan Council in this regard and I&#39;m also grateful to Ade Pitman and the Barry Town Council, without whom the event would not have been possible&#8217;, said John.</p>
         <br>
-        <p>&#8220;I was so excited&#8217; when early in 2014 I heard that our request had been successful subject to addressing a number of key operational issues, the most significant being arranging the display without conflicting with the flight path of the nearby busy, Cardiff Airport&#8217;, added John.</p>
+        <p>&#8220;I was so excited when early in 2014 I heard that our request had been successful subject to addressing a number of key operational issues, the most significant being arranging the display without conflicting with the flight path of the nearby busy, Cardiff Airport&#8217;, added John.</p>
         <br>
         <p>&#8216;We kept the event fairly low-key until we were recently advised that all operational issues had been addressed. In addition, we&#39;re also hoping to get a fly-past of the Battle of Britain Memorial flight Dakota aircraft on Sunday 31st August.  Now we are promoting the display but frankly the fact that the Red Arrows are coming is the greatest promotion you could ever wish for&#8217;, said John. &#8216;This is the biggest event I&#39;ve ever been involved with. As sponsor of the Red Arrows display, this is a substantial investment on my part, but its something I&#39;ve wanted to do for Barry for a long time!&#8217;</p>
 
@@ -53,13 +97,12 @@
         <br>
         <p>&#8220;Barry is a great place and we&#39;re so pleased that we have secured the Red Arrows for our &#8216;Barry at War&#8217; event to help people understand more about the town&#39;s wartime history. This year, the Barry Tourist Railway will bring an additional 40,000 visitors to Barry to see and hear that story&#8217;, John concluded.</p>
     </div>
-
     <br style="clear:left;"/>&nbsp;
 </div>
-  
+
 <!-- ******************************** -->
 
-<h4>News for 2013</h4>                
+<h4>News for 2013</h4>
 
 <div class="news-item-row">
     <div class="newsimg">
@@ -68,6 +111,7 @@
         </div>
         <img src="images/uk_us_flags.jpg" alt=""/>
     </div>
+
     <div class="grid_8">
         <h2>Today, March 10th, the Glamorgan Wartime Heritage Centre was opened for the 2013 season.</h2>
         <p>The Glamorgan Wartime Heritage Centre was officially opened for the 2013 season. The museum, now completed, was available for the public to inspect and 10 stalls selling collectable militaria did a brisk business. The centre will be open every second Sunday of each month throughout the year and also on the dates shown on our events page when the Barry Tourist Railway will also be operating.<br />
@@ -88,6 +132,7 @@
         </div>
         <img src="images/barry_at_war.jpg" alt=""/>
     </div>
+
     <div class="grid_8">
         <h2>Barry at War names Heritage Facility</h2>
         <p>The &#39;Glamorgan Wartime Heritage Centre&#39; has been chosen as the name for the Barry at War run facility located at the Barry Tourist Railway Station, Barry Island.<br />
@@ -121,6 +166,7 @@
         </div>
         <img src="images/uk_us_flags.jpg" alt=""/>
     </div>
+
     <div class="grid_8">
         <h2>Wartime Weekend Victory at Barry Tourist Railway</h2>
         <p>Barry Tourist Railway, supporting the Barry Wartime Weekend, is celebrating a successful 1940s wartime weekend, which saw GWR Steam Locomotive 9466 in action alongside 1940s re-enactors from across the Country.<br />
@@ -146,6 +192,7 @@
         </div>
         <img src="images/black_5s_at_barry.jpg" alt=""/>
     </div>
+
     <div class="grid_8">
         <h2>Two Black 5s Arrive at Barry Rail Centre</h2>
         <p>Two Black 5s arrived at the Barry Rail Centre via its mainline connection this week.  The steam locomotives, numbers 44871 and 45407 &#39;The Lancashire Fusilier&#39;, are mainline certified and brought passengers from Crewe via the Central Wales Line to South Wales in a charter service.<br />
@@ -175,9 +222,9 @@
     </div>
     <img src="images/class_26_26038.jpg" alt=""/>
 </div>
+
 <div class="grid_8">
     <h2>Bank Holiday Weekend First Running Success for Class 26 Locomotive</h2>
-
 
     <p>The first successful passenger services to be hauled by refurbished Class 26 Locomotive 26038 were a success during the bank holiday weekend 6th and 7th May at the Barry Tourist Railway.<br />
     <br />
@@ -207,10 +254,12 @@
             </div>
         </div>
     </div>
+
     <!--FOOTER-->
     <div id="footer">
         <?php include('includes/footer.php'); ?>
-    </div> 
+    </div>
     <!--FOOTER-->
+
     </body>
-    </html>
+</html>

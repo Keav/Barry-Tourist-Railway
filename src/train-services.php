@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title>Train Services</title> 
+        <?php include('includes/head.php'); ?>
 
+        <title>Train Services</title>
     </head>
-    <body>
 
-        <!--HEADER--> 
+    <body>
+        <?php
+          switch($_SERVER['SERVER_NAME'])
+          {
+              case 'barrytouristrailway.co.uk':
+                include('includes/google-tag.php');
+              break;
+          }
+        ?>
+
+        <!--HEADER-->
         <div id="header">
             <?php include('includes/header.php'); ?>
         </div>
+        <!--HEADER-->
 
-        <!--HEADER--> 
-
-        <div class="contentSub" id="trainServices"> 
+        <div class="contentSub" id="trainServices">
             <div class="container">
                 <h1>Train Services</h1>
 
@@ -46,19 +52,24 @@
                 <div class="trainServiceTop">
                     <p>We operate services for passengers on dates throughout the year, using either our own trains, or one of our regular visiting steam locomotives.  At Barry we have a heritage 1957 Diesel Multiple Unit (DMU Class 101), called Iris II that we have refurbished and turned into a comfortable passenger environment.  We also have a Class 73 diesel locomotive, which can typically be seen hauling Mk 2f passenger coaches.</p>
 
-                    <h3>Dates & Times for 2014</h3>
+                    <h3>Dates &amp; Times for 2015</h3>
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
-                    <p class="trainTimes">11:45, 13:30, 14:30, and 15:30</p>
-                </div>
+                    <p class="trainTimes">11:35, 13:10, 14:10, and 15:10</p>
+                    <p>Times may be subject to change.</p>
 
+                    <h3>Where to Buy</h3>
+                    <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
+                    <p class="santaSpecial">
+                        Tickets for special events and Santa Specials vary according to the nature of the event.</p>
+                </div>
 
                 <div class="grid_3_r" id="ticketPrices">
                     <img src="images/tickets.jpg" alt=""/>
-                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£6</p>
+                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£7</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£3.50</p>
+                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£4</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£14</p>
+                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£15</p>
                     <br style="clear:both;"/>
                 </div>
                 <br style="clear:left;"/>
@@ -69,8 +80,7 @@
                     <br style="clear:left;"/>
                 </div>
                 <br style="clear:right;"/>
-                
-                
+
                 <table class="trainServicTable" >
                      <!-- <tr class="odd"><th><p>MARCH</p></th>
                           <td class="special"><p>29<span>FRI</span></p></td>
@@ -80,34 +90,34 @@
                           <td>&nbsp;</td><td>&nbsp;</td>
                           <td>&nbsp;</td>
                           <td>&nbsp;</td></tr> -->
-                          
-                     <tr class="odd"><th><p>APRIL</p></th>
-                         <td class="special"><p>18<span>FRI</span></p></td>
-                         <td class="special"><p>19<span>SAT</span></p></td>
-                         <td class="special"><p>20<span>SUN</span></p></td>
-                         <td class="special"><p>21<span>MON</span></p></td>
+
+                     <tr class="even"><th><p>APRIL</p></th>
+                         <td class="special"><p>3<span>FRI</span></p></td>
+                         <td class="special"><p>4<span>SAT</span></p></td>
+                         <td class="special"><p>5<span>SUN</span></p></td>
+                         <td class="special"><p>6<span>MON</span></p></td>
                          <td>&nbsp;</td>
-                         <td>&nbsp;</td>
+                         <td><p>18<span>SAT</span></p></td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
-                         
+
                      <tr class="odd"><th><p>MAY</p></th>
-                         <td><p>3<span>SAT</span></p></td>
-                         <td><p>4<span>SUN</span></p></td>
-                         <td><p>5<span>MON</span></p></td>
+                         <td><p>2<span>SAT</span></p></td>
+                         <td><p>3<span>SUN</span></p></td>
+                         <td><p>4<span>MON</span></p></td>
                          <td>&nbsp;</td>
-                         <td><p>24<span>SAT</span></p></td>
-                         <td><p>25<span>SUN</span></p></td>
-                         <td><p>26<span>MON</span></p></td>
+                         <td class="special"><p>9<span>SAT</span></p></td>
                          <td>&nbsp;</td>
-                         <td>&nbsp;</td>
+                         <td><p>23<span>SAT</span></p></td>
+                         <td><p>24<span>SUN</span></p></td>
+                         <td><p>25<span>MON</span></p></td>
                          <td>&nbsp;</td></tr>
-                         
-                    <tr class="odd"><th><p>JUNE</p></th>
-                        <td class="special"><p>7<span>SAT</span></p></td>
-                        <td class="special"><p>8<span>SUN</span></p></td>
+
+                    <tr class="even"><th><p>JUNE</p></th>
+                        <td class="special"><p>20<span>SAT</span></p></td>
+                        <td class="special"><p>21<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -116,38 +126,39 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                        
+
                      <tr class="odd"><th><p>JULY</p></th>
-                         <td><p>19<span>SAT</span></p></td>
-                         <td><p>20<span>SUN</span></p></td>
+                         <td class="special"><p>25<span>SAT</span></p></td>
+                         <td class="special"><p>26<span>SUN</span></p></td>
                          <td>&nbsp;</td>
-                         <td class="special"><p>26<span>SAT</span></p></td>
-                         <td class="special"><p>27<span>SUN</span></p></td>
+                         <td>&nbsp;</td>
+                         <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td>
                          <td>&nbsp;</td></tr>
-                         
-                     <tr class="odd"><th><p>AUG</p></th>
-                        <td><p>2<span>SAT</span></p></td>
-                        <td class="special"><p>3<span>SUN</span></p></td>
+
+                     <tr class="even"><th><p>AUGUST</p></th>
+                        <td><p>1<span>SAT</span></p></td>
+                        <td class="special"><p>2<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>9<span>SAT</span></p></td>
-                        <td class="special"><p>10<span>SUN</span></p></td>
+                        <td><p>8<span>SAT</span></p></td>
+                        <td><p>9<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>16<span>SAT</span></p></td>
-                        <td class="special"><p>17<span>SUN</span></p></td>
+                        <td><p>15<span>SAT</span></p></td>
+                        <td><p>16<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                        <tr class="odd"><th><p>AUG</p></th>
-                        <td><p>23<span>SAT</span></p></td>
-                        <td><p>24<span>SUN</span></p></td>
-                        <td><p>25<span>MON</span></p></td>
+
+                        <tr class="even"><th><p>AUGUST</p></th>
+                        <td class="special"><p>22<span>SAT</span></p></td>
+                        <td class="special"><p>23<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="special"><p>30<span>SAT</span></p></td>
-                        <td class="special"><p>31<span>SUN</span></p></td>
                         <td>&nbsp;</td>
+                        <td><p>29<span>SAT</span></p></td>
+                        <td><p>30<span>SUN</span></p></td>
+                        <td><p>31<span>MON</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -164,9 +175,9 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr> -->
-                    
+
                     <tr class="odd"><th><p>NOVEMEBER</p></th>
-                        <td class="special"><p>5<span>WED</span></p></td>
+                        <td class="special"><p>5<span>THU</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -176,13 +187,13 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
-                           
-                    <tr class="odd"><th><p>DECEMBER</p></th>
-                        <td class="santa"><p>13<span>SAT</span></p></td>
-                        <td class="santa"><p>14<span>SUN</span></p></td>
+
+                    <tr class="even"><th><p>DECEMBER</p></th>
+                        <td class="santa"><p>12<span>SAT</span></p></td>
+                        <td class="santa"><p>13<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td class="santa"><p>20<span>SAT</span></p></td>
-                        <td class="santa"><p>21<span>SUN</span></p></td>
+                        <td class="santa"><p>19<span>SAT</span></p></td>
+                        <td class="santa"><p>20<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -190,44 +201,31 @@
                         <td>&nbsp;</td></tr>
                 </table>
 
-                <div class="trainServiceTop"> 
-                    <h3>Where to Buy</h3>
-                    <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
-                    <p class="santaSpecial">
-                        Tickets for special events and Santa Specials vary according to the nature of the event.</p> 
-                </div>
                 <br style="clear:left;"/>
-                
-                
+                <div style="padding:20px;"></div>
+
                 <div class="pbRow">
                     <div class="pb-image">
                          <img src="images/christmasEvent.jpg" alt=""/>
-                    </div> 
+                    </div>
                     <div class="grid_8">
                         <h3>Private Bookings</h3>
 
                         <p>The Railway also takes half and full day private bookings, should you wish to charter a train privately.  For further information please contact us to discuss your requirements.
                         </p>
-                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under the careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
-
-                        </p></div>  
-
+                        <br>
+                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
+                        </p></div>
                     <br style="clear:left;"/>&nbsp;
-
                 </div>
-
-
-
-
                 <br style="clear:left;"/>
-
             </div>
-
         </div>
+
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
-        </div> 
+        </div>
         <!--FOOTER-->
 
     </body>

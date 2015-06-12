@@ -232,5 +232,7 @@ BingSiteAuth.xml
 !dist/
 !src/
 node_modules/
+documents/
 !robots.txt
 .sass-cache
+TweetCache.json

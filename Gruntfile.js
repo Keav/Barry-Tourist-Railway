@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         clean: {
-            build: ['dist/css/custom**.*', 'dist/js/custom**.*'],
+            build: ['dist/css/main**.*', 'dist/js/custom**.*'],
         },
 
         imagemin: {
@@ -74,7 +74,7 @@ module.exports = function (grunt) {
                     'head-script-disabled': true,
                     'style-disabled': true
                 },
-                src: ['src/index.html']
+                src: ['src/index.php']
             }
         },
 
@@ -85,8 +85,8 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: { // Dictionary of files
-                    'dist/index.html': 'src/index.html' // 'destination': 'source'
-
+                    // 'dist/index.html': 'src/index.html', // 'destination': 'source'
+                    'dist/index.php' : 'src/index.php'
                 }
             },
         },
@@ -222,7 +222,16 @@ module.exports = function (grunt) {
                     'src/**/*.css', 'src/**/*.js', '!**/*.min.*'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/index.html',
+                dest: [
+                    'dist/index.php',
+                    'dist/events.php',
+                    'dist/about.php',
+                    'dist/history.php',
+                    'dist/news.php',
+                    'dist/train-services.php',
+                    'dist/contact.php',
+                    'dist/contact-success.php',
+                ],
             },
             prod: {
                 // Specific options, override the global ones
@@ -232,11 +241,11 @@ module.exports = function (grunt) {
                 // Files to hash
                 src: [
                     // WARNING: These files will be renamed!
-                    'dist/css/custom.min.css',
-                    'dist/js/custom.min.js'
+                    'dist/css/main.min.css',
+                    //'dist/js/custom.min.js'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/index.html',
+                dest: 'dist/*.php',
             }
         },
 
@@ -244,6 +253,7 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
                     src: [
                         '**/*',
@@ -266,8 +276,9 @@ module.exports = function (grunt) {
             others: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
-                    src: ['js/jquery**.min.js', '.htaccess'],
+                    src: ['**/*.php', 'js/jquery**.min.js', '**/.htaccess', 'includes/*.*'],
                     dest: 'dist/',
                 }]
             },
@@ -275,7 +286,7 @@ module.exports = function (grunt) {
 
         'string-replace': {
             inline: {
-                files: {'dist/index.html' : 'dist/index.html'},
+                files: {'dist/index.php' : 'dist/index.php'},
                 options: {
                     replacements: [
                     // place files inline example
@@ -291,6 +302,23 @@ module.exports = function (grunt) {
         shell: {
             bumpVersion: {
                 command: 'npm version patch'
+            }
+        },
+
+        bump: {
+            options: {
+                files: ['package.json'],
+                updateConfigs: [],
+                commit: true,
+                commitMessage: 'Release v%VERSION%',
+                commitFiles: ['package.json'],
+                createTag: true,
+                tagName: 'v%VERSION%',
+                tagMessage: 'Version %VERSION%',
+                push: true,
+                pushTo: 'origin',
+                gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
+                globalReplace: false
             }
         },
 
@@ -315,7 +343,7 @@ module.exports = function (grunt) {
                 tasks: ['sass'],
             },
             livereload: {
-                files: ['src/**/*.html', 'src/**/*.css', 'src/**/*.js'],
+                files: ['src/**/*.html', 'src/**/*.php', 'src/**/*.css', 'src/**/*.js'],
                 options: {livereload: true}
             }
         }
@@ -323,18 +351,21 @@ module.exports = function (grunt) {
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['connect', 'watch']);
+    grunt.registerTask('default', ['watch']);
 
     // CSS tasks.
     grunt.registerTask('buildcss', ['sass', 'cssmin']);
 
     // Bump release version numbers
-    grunt.registerTask('release', ['shell:bumpVersion']);
+    grunt.registerTask('release', ['bump:major']);
 
-    grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    //grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
+
+    // Interim Deployment
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 
