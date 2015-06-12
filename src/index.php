@@ -1,58 +1,25 @@
 <!DOCTYPE html>
-<?php include('includes/eventsdata.php'); ?>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
-        <link href="css/glyphicon.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-<!--         <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-        <link rel="stylesheet" href="owl-carousel/owl.transitions.css"> -->
-        <!--<script type="text/javascript" src="js/jquery.js"></script>-->
-<!--         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script> -->
-        <title>Barry Tourist Railway</title>
-        <script type="text/javascript">
-            function one() {
-                $('#event2').hide();
-                $('#event1').show();
-                $('#event3').hide();
-                $("#tab1").removeClass("event_nav_1");
-                $("#tab1").addClass("event_nav_1_active");
-                $("#tab2").removeClass("event_nav_2_active");
-                $("#tab2").addClass("event_nav_2");
-                $("#tab3").removeClass("event_nav_3_active");
-                $("#tab3").addClass("event_nav_3");
 
-            }
-            function two() {
-                $("#tab2").removeClass("event_nav_2");
-                $("#tab2").addClass("event_nav_2_active");
-                $("#tab1").removeClass("event_nav_1_active");
-                $("#tab1").addClass("event_nav_1");
-                $("#tab3").removeClass("event_nav_3_active");
-                $("#tab3").addClass("event_nav_3");
-                $('#event1').hide();
-                $('#event2').show();
-                $('#event3').hide();
-            }
-            function three() {
-                $("#tab3").removeClass("event_nav_3");
-                $("#tab3").addClass("event_nav_3_active");
-                $("#tab1").removeClass("event_nav_1_active");
-                $("#tab1").addClass("event_nav_1");
-                $("#tab2").removeClass("event_nav_2_active");
-                $("#tab2").addClass("event_nav_2");
-                $('#event1').hide();
-                $('#event3').show();
-                $('#event2').hide();
-            }
-        </script>
+<?php include('includes/eventsdata.php'); ?>
+
+<html lang="en">
+
+    <head>
+        <?php include('includes/head.php'); ?>
+
+        <title>Barry Tourist Railway</title>
+
+        <!-- FOR OWL CAROUSEL -->
+        <!--
+        <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
+        -->
+
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <!-- <script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script> -->
     </head>
+
     <body>
         <?php
           switch($_SERVER['SERVER_NAME'])
@@ -65,7 +32,7 @@
 
         <!--HEADER-->
         <div id="headerHome">
-            <?php include('includes/header-home.php'); ?>
+            <?php include('includes/header.php'); ?>
         </div>
         <!--HEADER-->
 
@@ -115,7 +82,6 @@
             <div class="container">
             <h1>Coming Up...</h1>
 
-
                 <?php
                   $x = 0;
                   foreach ($events as $key => $value) {
@@ -123,33 +89,32 @@
                     if (($now <= $eventend) && ($x < 3)) {
                       $x++;
                       $eventid = 'event'.$x; ?>
-                <!--START EVENT 1-->
+                <!--START EVENT -->
                 <div id="<?= $eventid ?>">
                     <div class="home_event">
                         <div class="grid_4_r">
                             <div class="on_now_img">
-                                <!--Event Image--> <img src="images/<?= $value['eventimage'] ?>" alt=""/>
+                                <!-- EVENT IMAGE --> <img src="images/<?= $value['eventimage'] ?>" alt=""/>
                             </div>
                         </div>
                         <div class="grid_8">
-                            <!-- EVENT TITLE--> <h3><?= $value['eventtitle'] ?></h3>
+                            <!-- EVENT TITLE --> <h3><?= $value['eventtitle'] ?></h3>
                             <br style="clear:left;"/>
                             <div class="eventDate">
                                 <img src="images/clock.png" alt=""/>
-                                 <!-- EVENT DATE--> <p><?= $value['eventdate'] ?></p>
+                                 <!-- EVENT DATE --> <p><?= $value['eventdate'] ?></p>
                                 <br style="clear:left;"/>
                             </div>
                             <br style="clear:left;"/>
-                            <!-- EVENT CONTENT--> <p><?= $value['eventcontent'] ?></p>
+                            <!-- EVENT CONTENT --> <p><?= $value['eventcontent'] ?></p>
                         </div>
                         <br style="clear:left;"/>&nbsp;
                     </div>
                 </div>
-                <!--END EVENT 1-->
+                <!--END EVENT -->
                 <?php } } ?>
 
                <!--EVENT NAVIGATION-->
-
                 <div class="right">
                     <div   id="tab1" class="event_nav_1_active">
                        <a href="Javascript:void(0);" onclick="one()">&nbsp;</a>
@@ -167,11 +132,9 @@
                     </div>
                 </div>
                 <br style="clear:right;"/>
-
                 <!--END EVENT NAVIGATION-->
 
                 <!-- LATEST NEWS ITEM -->
-
                 <?php
                 $i = 0;
                 foreach ($news as $key => $value) {
@@ -201,9 +164,7 @@
                         <br style="clear:left;"/>&nbsp;
                     </div>
                 <?php } } } ?>
-
                 <!-- END LATEST NEWS ITEM -->
-
 
                 <div class="homeLinks">
                     <a href="about.php"><img src="images/about-the-railway.jpg" alt=""/></a>
@@ -213,10 +174,7 @@
                 </div>
             </div>
         </div>
-
-
         <!--END MAIN CONTENT-->
-
 
         <!--FOOTER-->
         <div id="footer">
@@ -224,21 +182,65 @@
         </div>
         <!--FOOTER-->
 
-<!--         <script src="owl-carousel/owl.carousel.js"></script>
+<!-- NON-BLOCKING RESOURCES -->
 
-        <script>
-        // Initialize and setup Owl Image Carousel
-        $(document).ready(function() {
-        var owl = $("#owl-demo");
+<script type="text/javascript">
+function one() {
+    "use strict";
+    $('#event2').hide();
+    $('#event1').show();
+    $('#event3').hide();
+    $("#tab1").removeClass("event_nav_1");
+    $("#tab1").addClass("event_nav_1_active");
+    $("#tab2").removeClass("event_nav_2_active");
+    $("#tab2").addClass("event_nav_2");
+    $("#tab3").removeClass("event_nav_3_active");
+    $("#tab3").addClass("event_nav_3");
+}
 
-        owl.owlCarousel({
-            autoPlay: 10000,
-            navigation : false,
-            pagination:true,
-            singleItem : true,
-            transitionStyle : "fade",
-            });
-        });
-        </script> -->
+function two() {
+    "use strict";
+    $("#tab2").removeClass("event_nav_2");
+    $("#tab2").addClass("event_nav_2_active");
+    $("#tab1").removeClass("event_nav_1_active");
+    $("#tab1").addClass("event_nav_1");
+    $("#tab3").removeClass("event_nav_3_active");
+    $("#tab3").addClass("event_nav_3");
+    $('#event1').hide();
+    $('#event2').show();
+    $('#event3').hide();
+}
+
+function three() {
+    "use strict";
+    $("#tab3").removeClass("event_nav_3");
+    $("#tab3").addClass("event_nav_3_active");
+    $("#tab1").removeClass("event_nav_1_active");
+    $("#tab1").addClass("event_nav_1");
+    $("#tab2").removeClass("event_nav_2_active");
+    $("#tab2").addClass("event_nav_2");
+    $('#event1').hide();
+    $('#event3').show();
+    $('#event2').hide();
+}
+</script>
+
+<!-- <script src="owl-carousel/owl.carousel.js"></script>
+
+<script>
+// Initialize and setup Owl Image Carousel
+$(document).ready(function() {
+var owl = $("#owl-demo");
+
+owl.owlCarousel({
+    autoPlay: 10000,
+    navigation : false,
+    pagination:true,
+    singleItem : true,
+    transitionStyle : "fade",
+    });
+});
+</script> -->
+
     </body>
 </html>

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+
 <?php include('includes/eventsdata.php'); ?>
-<html>
+
+<html lang="en">
+
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <?php include('includes/head.php'); ?>
+
         <title>Events</title>
     </head>
+
     <body>
         <?php
           switch($_SERVER['SERVER_NAME'])
@@ -46,6 +47,7 @@
                                     <img src="images/<?= $value['eventimage'] ?>" alt=""/>
                               </div>
                           </div>
+
                           <div class="grid_8">
                               <h3><?= $value['eventtitle'] ?></h3>
                               <br style="clear:left;"/>
@@ -57,7 +59,6 @@
                               <br style="clear:left;"/>
                               <p><?= $value['eventcontent'] ?></p>
                           </div>
-
                           <br style="clear:left;"/>&nbsp;
                       </div>
                   <?php } } } ?>
@@ -95,13 +96,14 @@
                   </div>
                   <?php } } ?>
                   <!-- End All remaining events block -->
-
             </div>
         </div>
+
         <!--FOOTER-->
         <div id="footer">
             <?php include('includes/footer.php'); ?>
         </div>
         <!--FOOTER-->
+
     </body>
 </html>
