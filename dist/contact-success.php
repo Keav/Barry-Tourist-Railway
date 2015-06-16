@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.901039c0.css" />
-        <title></title>
+        <?php include('includes/head.php'); ?>
+
+        <title>Contact Form Success</title>
 
     </head>
+
     <body>
         <?php
           switch($_SERVER['SERVER_NAME'])

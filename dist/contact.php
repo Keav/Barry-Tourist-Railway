@@ -1,36 +1,18 @@
 <!DOCTYPE html>
-<?php include('includes/contact-form.php'); ?>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700,700italic|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="css/grid.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.min.901039c0.css" />
-        <title>Contact</title>
-        <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> -->
-        <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8"/> -->
-        <script type="text/javascript"  src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-<script type="text/javascript">
-function initialize() {
-    "use strict";
-    var myLatlng = new google.maps.LatLng(51.3925, -3.27294),
-        myOptions = {
-            zoom: 16,
-            center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        },
-        map = new google.maps.Map(document.getElementById("map_canvas"), myOptions),
-        marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map
-        });
-}
-</script>
+<?php include('includes/contact-form.php'); ?>
+
+<html lang="en">
+
+    <head>
+        <?php include('includes/head.php'); ?>
+
+        <title>Contact</title>
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     </head>
 
     <body onload="initialize()">
-
         <?php
           switch($_SERVER['SERVER_NAME'])
           {
@@ -141,5 +123,24 @@ function initialize() {
             <?php include('includes/footer.php'); ?>
         </div>
         <!--FOOTER-->
+
+<!-- NON BLOCKING RESOURCES -->
+<script type="text/javascript">
+function initialize() {
+    "use strict";
+    var myLatlng = new google.maps.LatLng(51.3925, -3.27294),
+        myOptions = {
+            zoom: 16,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+        map = new google.maps.Map(document.getElementById("map_canvas"), myOptions),
+        marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map
+        });
+}
+</script>
+
     </body>
 </html>
