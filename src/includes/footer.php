@@ -43,7 +43,7 @@
         <p class="copyright">
             Copyright © 2010-2015 Barry Tourist Railway.<br/>
             All rights reserved. A Part of the Barry Rail Centre.<br/>
-            Web design by <a href="http://www.bluestagstudio.co.uk/" target="_blank">bluestagstudio</a>
+            Web design by <a href="http://www.bluestagstudio.co.uk/" target="_blank">bluestagstudio</a> | Coding by <a href="http://chriskeavey.com" target="_blank">Chris Keavey
         </p>
     </div>
     <br style="clear:left;"/>
