@@ -54,7 +54,7 @@
             <img src="images/<?= $value['newsimage'] ?>" alt="The Red Arrows">
         </div>
 
-        <p><?= $value['newscontent'] ?></p>
+        <?= $value['newscontent'] ?>
     </div>
 
     <br style="clear:left;"/>&nbsp;
