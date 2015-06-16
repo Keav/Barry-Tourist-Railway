@@ -1,12 +1,12 @@
 
 .grid_1{
-    
-    
+
+
 }
 
 .grid_2{
-    
-    
+
+
 }
 
 .grid_3_r{
@@ -15,37 +15,37 @@
 }
 .grid_3{
        width:220px;
-    float:left; 
-    margin-right:20px;
-    
-}
- 
-.grid_4 {
-    width:300px;
     float:left;
-    
+    margin-right:20px;
+
+}
+
+.grid_4 {
+    width:320px;
+    float:left;
+
 }
 
 .grid_4_r{
-    
+
     width:300px;
     margin-right:20px;
     float:left;
 }
 
- 
+
 
 .grid_6{
-    
+
       width:780px;
-    
+
 }
 .grid_7{
-    
-    
+
+
 }
 .grid_8{
     width:620px;
-    float:left; 
-    
+    float:left;
+
 }

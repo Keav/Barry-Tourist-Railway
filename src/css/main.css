@@ -783,7 +783,7 @@ float:left;
 }
 
 #twitter{
-    width:300px;
+    width:320px;
     margin:16px 0 0 0;
     height:216px;
     background:url('../images/twitterBack.jpg') no-repeat;
@@ -792,7 +792,7 @@ float:left;
 .copyright{
     color:#DCD8D1;
     font-size: 12px;
-    width:300px;
+    width:320px;
     text-align: right;
     margin: 0;
 }
