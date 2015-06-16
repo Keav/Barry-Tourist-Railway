@@ -53,12 +53,17 @@
                     <p>We operate services for passengers on dates throughout the year, using either our own trains, or one of our regular visiting steam locomotives.  At Barry we have a heritage 1957 Diesel Multiple Unit (DMU Class 101), called Iris II that we have refurbished and turned into a comfortable passenger environment.  We also have a Class 73 diesel locomotive, which can typically be seen hauling Mk 2f passenger coaches.</p>
 
                     <h3>Dates &amp; Times for 2015</h3>
+
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
+
                     <p class="trainTimes">11:35, 13:10, 14:10, and 15:10</p>
+
                     <p>Times may be subject to change.</p>
 
                     <h3>Where to Buy</h3>
+
                     <p>Tickets can be purchased at our Station Café at Barry Island Railway Station or on board the train on each run day.  Tickets for Santa Specials are sold in advance due the high demand to avoid disappointment.</p>
+
                     <p class="santaSpecial">
                         Tickets for special events and Santa Specials vary according to the nature of the event.</p>
                 </div>
@@ -211,11 +216,10 @@
                     <div class="grid_8">
                         <h3>Private Bookings</h3>
 
-                        <p>The Railway also takes half and full day private bookings, should you wish to charter a train privately.  For further information please contact us to discuss your requirements.
-                        </p>
-                        <br>
-                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.
-                        </p></div>
+                        <p>The Railway also takes half and full day private bookings, should you wish to charter a train privately.  For further information please contact us to discuss your requirements.</p>
+
+                        <p class="indent">For those keen to have a go, the Barry Tourist Railway also offers a Driver Experience, where under careful direction you may have a go at driving one of our trains.  This service is not available of passenger services.  For further information please contact us to discuss your requirements.</p>
+                    </div>
                     <br style="clear:left;"/>&nbsp;
                 </div>
                 <br style="clear:left;"/>
