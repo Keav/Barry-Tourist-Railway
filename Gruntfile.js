@@ -179,14 +179,15 @@ module.exports = function (grunt) {
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
                 dest: [
-                    'dist/index.php',
-                    'dist/events.php',
-                    'dist/about.php',
-                    'dist/history.php',
-                    'dist/news.php',
-                    'dist/train-services.php',
-                    'dist/contact.php',
-                    'dist/contact-success.php',
+                    // 'dist/index.php',
+                    // 'dist/events.php',
+                    // 'dist/about.php',
+                    // 'dist/history.php',
+                    // 'dist/news.php',
+                    // 'dist/train-services.php',
+                    // 'dist/contact.php',
+                    // 'dist/contact-success.php',
+                    'dist/includes/head.php'
                 ],
             },
             prod: {
@@ -201,7 +202,7 @@ module.exports = function (grunt) {
                     //'dist/js/custom.min.js'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
-                dest: 'dist/*.php',
+                dest: 'dist/includes/head.php',
             }
         },
 
@@ -283,7 +284,7 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['watch']);
 
     // Build for Staging
-    grunt.registerTask('build', ['clean', 'autoprefixer', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres:min', 'hashres:prod', 'newer:copy']);
+    grunt.registerTask('build', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres:min', 'hashres:prod']);
 
     // Bump release version numbers
     grunt.registerTask('release', ['bump:major']);
