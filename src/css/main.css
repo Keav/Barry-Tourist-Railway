@@ -44,6 +44,18 @@ body{
     min-width: 1040px;
 }
 
+.sitelink a:link, .sitelink a:visited
+{
+    display:block;
+    width:150px;
+    font-size: 14px;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    background:#7D7669;
+    padding:4px;
+}
+
 h1{
     color:#766C63;
     font-size: 48px;
@@ -74,16 +86,16 @@ h4{
     margin-bottom:40px;
 }
 p {
-    color:#766C63;
     font-family: 'PT Sans', sans-serif;
     font-size:18px;
     line-height: 150%;
+    color:#766C63;
     padding: 10px 0;
 }
 
 /* Styles added by Chris Keavey */
 
-/** {
+/* * {
   box-sizing: border-box;
 }*/
 
@@ -101,9 +113,7 @@ p {
 }
 
 .homeLinks img, .contact-form-submit {
-  -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
 
@@ -138,6 +148,7 @@ hr {
     background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     }
 
 .hrr {
@@ -167,6 +178,7 @@ hr {
     background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
 .img-center {
@@ -235,10 +247,11 @@ sup {
     margin-top:77px;
     margin-bottom:120px;
 }
-.tabs li a:link,  .tabs li a:visited{
+.tabs li a:link,  .tabs li a:visited {
+    font-family: 'PT Sans', sans-serif;
     font-size:18px;
+    font-weight:bold;
     color:#766C63;
-    font-weight:bold;font-family: 'PT Sans', sans-serif;
 }
 
 .tabs li a:hover{
@@ -467,17 +480,17 @@ font-family: 'PT Sans', sans-serif;*/
 }
 .viewAllEvents a:link, .viewAllEvents a:visited, p a:link, p a:visited{
     color:#40A446;
-    font-size:12px;
+    /*font-size:12px;*/
     color:#40A446;
     font-family: 'PT Sans', sans-serif;
 }
-p a:link, p a:visited {
+/*p a:link, p a:visited {
     font-size: 16px;
-}
+}*/
 
-.sitelink p a {
+/*.sitelink p a {
   font-size:14px;
-}
+}*/
 
 p a:hover, .viewAllEvents a:hover {
     text-decoration: underline;
@@ -592,27 +605,27 @@ p a:hover, .viewAllEvents a:hover {
 .historyDetails p{
     width:378px;
     position:absolute;
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 .historyContent h1{
     padding-top:45px;
 }
 #history_1{
-    top: 30px;
+    top: 12px;
 }
 #history_2{
-    top: 190px;
+    top: 176px;
     right:0;
 }
 #history_3{
-    top: 382px;
+    top: 366px;
 }
 #history_4{
-    top: 590px;
+    top: 577px;
     right:0;
 }
 #history_5{
-    top: 798px;
+    top: 787px;
 }
 
 /*CONTACT FORM*/
@@ -770,7 +783,7 @@ float:left;
 }
 
 #twitter{
-    width:308px;
+    width:300px;
     margin:16px 0 0 0;
     height:216px;
     background:url('../images/twitterBack.jpg') no-repeat;
@@ -779,7 +792,7 @@ float:left;
 .copyright{
     color:#DCD8D1;
     font-size: 12px;
-    width:280px;
+    width:300px;
     text-align: right;
     margin: 0;
 }
@@ -802,7 +815,7 @@ float:left;
     width:100%;
     text-align: left;
     margin: 0;
-    margin-top: 33px;
+    margin-top: 32px;
     padding: 0;
 }
 
@@ -852,29 +865,27 @@ float:left;
 /*TRAIN SERVICES*/
 
 .ticketType{
-    width:140px;
-    float:left;
-    font-size: 14px;
-   line-height: 100%;
-   padding:4px 0 0 0;
+  width:140px;
+  float:left;
+  line-height: 20px;
+  padding:4px 0 0 0;
 }
 
 .ticketPrice
 {
-   line-height: 100%;
-    font-family: 'Gentium Basic', serif;
-    font-weight: bold;
-    width:60px;
-    float:right;
-    font-size:24px;
-   padding:4px 0 0 0;
+  width:60px;
+  float:right;
+  font-family: 'Gentium Basic', serif;
+  font-size:22px;
+  line-height: 20px;
+  font-weight: bold;
+  padding:4px 0 0 0;
 }
 
 .ticketType span{
   font-size:12px;
   display:block;
 }
-
 
 #ticketPrices img{
     padding-bottom:20px;
@@ -1054,16 +1065,4 @@ padding:0 0 100px 0;
     position:absolute;
     top:0;
     right:0;
-}
-
-.sitelink a:link, .sitelink a:visited
-{
-    display:block;
-    width:150px;
-    text-align:center;
-    background:#7D7669;
-    color:#fff;
-    padding:4px;
-    font-weight:bold;
-
 }
