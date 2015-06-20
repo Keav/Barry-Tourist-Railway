@@ -3,7 +3,7 @@
 
     $news = array(
 
-        '16-06-2015' => array(
+/*        '16-06-2015' => array(
             'newstitle' => '&#8216;BARRY AT WAR&#8217; THIS WEEKEND',
             'newsdate' => '16 <span>JUNE</span>',
             'newsimage' => 'red_arrows.jpg',
@@ -54,6 +54,6 @@
                   <p>John went on to say, &#8220;We are keen to tell people about the history of Barry, particularly, the docks, the railway and the key role Barry played in the two World Wars&#39;. I am particularly proud of the &#8216;Barry at War Museum&#8217; that has been developed at Barry Island Station by our &#8216;Barry at War&#8217; Volunteer Group, headed up by Glenn Booker. This will be a key feature of the event with the re-enactors in period uniforms and dress, together with military and fashion displays, plus vintage stalls giving the station an authentic 1940&#39;s atmosphere. There&#39;s also a Jazz Festival going on!&#8221;</p>
 
                   <p>&#8220;Barry is a great place and we&#39;re so pleased that we have secured the Red Arrows and Avro Lancaster for our &#8216;Barry at War&#8217; event to help people understand more about the town&#39;s wartime history. This year, the Barry Tourist Railway and the &#8216;Barry at War&#8217; Museum will bring an additional 50,000 visitors to Barry to see and hear that story&#8221;, John concluded.</p>'
-        ),
+        ), */
     );
 ?>

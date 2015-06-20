@@ -74,7 +74,7 @@
             'eventimage' => 'barry_at_war.jpg',
             'eventcontent' => ''
         ),
-        '20-06-2015' => array(
+        '19-06-2015' => array(
             'eventtitle' => 'Barry at War Weekend - Red Arrows Display',
             'eventdate' => 'Saturday June 20th',
             'eventimage' => 'red_arrows_tn.jpg',

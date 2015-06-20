@@ -450,12 +450,12 @@ font-family: 'PT Sans', sans-serif;*/
 
 
 .homeLinks {
-  padding: 79px 0 100px 0;
+  padding: 60px 0 70px 0;
 }
 
-.homeLinks:first-of-type {
+/*.homeLinks:first-of-type {
     padding: 30px 0 28px 0;
-}
+}*/
 
 .homeLinks img{
 
@@ -468,7 +468,7 @@ font-family: 'PT Sans', sans-serif;*/
 
 
 #homePage{
-    padding:0;
+    padding:0 0 100px 0;
 }
 .viewAllEvents a:link, .viewAllEvents a:visited, p a:link, p a:visited{
     color:#40A446;
