@@ -42,19 +42,19 @@
 <div class="news-item-row">
     <div class="newsimg">
         <div class="newsDate">
-            <p> <?= $value['newsdate'] ?></p>
+            <p> <?= htmlentities($value['newsdate']) ?></p>
         </div>
-        <img src="images/<?= $value['newsimage'] ?>" alt="News Image" />
+        <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="News Image" />
     </div>
 
     <div class="grid_8">
-        <h2><?= $value['newstitle'] ?></h2>
+        <h2><?= htmlentities($value['newstitle']) ?></h2>
 
         <div class="container img-center">
-            <img src="images/<?= $value['newsimage'] ?>" alt="The Red Arrows">
+            <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="Article Image">
         </div>
 
-        <?= $value['newscontent'] ?>
+        <?= nl2br(htmlentities($value['newscontent'])) ?>
     </div>
 
     <br style="clear:left;"/>&nbsp;
