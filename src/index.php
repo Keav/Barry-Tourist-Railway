@@ -86,7 +86,7 @@
                 <?php
                   $x = 0;
                   foreach ($events as $key => $value) {
-                    $eventend = strtotime($key)+86399; //Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day
+                    $eventend = strtotime($key)+86399; /* Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day */
                     if (($now <= $eventend) && ($x < 3)) {
                       $x++;
                       $eventid = 'event'.$x; ?>
@@ -143,7 +143,7 @@
                 $i = 0;
                 foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) { // Release date plus 2 weeks 60*60*24*14
+                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) { /* Release date plus 2 weeks 60*60*24*14 */
                     for (; $i === 0; $i++) { ?>
 
                     <h1>Latest News</h1>
