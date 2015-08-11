@@ -306,7 +306,7 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['watch']);
 
     // Build for Staging
-    grunt.registerTask('build', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres:min', 'hashres:prod']);
+    grunt.registerTask('build', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'stripCssComments', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres:min', 'hashres:prod']);
 
     // Bump release version numbers
     grunt.registerTask('release', ['bump:major']);
