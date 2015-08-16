@@ -129,10 +129,10 @@
             'eventcontent' => 'The railway is receiving a UK Railtours excursion train which is to traverse all the running lines on the Barry Tourist Railway. As a result, there is no opportunity to run any other Services until the 15.10 service from Barry Island. Platform tickets will be available for a nominal sum for those wishing to access the platform at Barry Island to see and photograph the railway excursion train.'
         ),
         '23-08-2015' => array(
-            'eventtitle' => 'Mini Diesel Gala',
+            'eventtitle' => 'Normal Operating Day',
             'eventdate' => 'Sunday August 23rd',
-            'eventimage' => 'class_26_26038.jpg',
-            'eventcontent' => 'On Sunday 23rd August, we are holding a mini diesel gala at the Barry Tourist Railway. Our class 73 loco 73118 (with GATEX set) and our 101 diesel railcars will be in operation. The class 08 based at the railway will also be on display along with a Colas Class 60 loco. In addition, it will be possible to view our newly acquired Sentinel steam loco, \'Susan\'.'
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Sadly the Diesel Gala that was scheduled for Sunday 22nd August has been cancelled due to the non-availability of Diesel Loco\'s. We will however still have a normal operating day and will be running our shed tours. As always, our Barry Island Station Café will be open for refreshements.'
         ),
         '29-08-2015' => array(
             'eventtitle' => 'Normal Operating Day',
