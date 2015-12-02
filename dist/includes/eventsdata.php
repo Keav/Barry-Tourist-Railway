@@ -156,7 +156,12 @@
             'eventtitle' => 'Bonfire Night Trains',
             'eventdate' => 'Thursday November 5th',
             'eventimage' => 'bonfire_night.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'Beat the traffic jams to see the firework display!
+              Park and Ride at the Waterfront Station car park (Hood Road / Powell Duffryn Way - Post Code CF62 5QR)
+              A frequent shuttle train service will operate from the Waterfront Station to Barry Island Station, commencing at 18.15 hrs.
+              After the fireworks, the shuttle service will recommence with the last train leaving Barry Island for the Waterfront at 21.00hrs.
+              Fare £5 per car.
+'
         ),
         '13-12-2015' => array(
             'eventtitle' => 'Santa Special',
