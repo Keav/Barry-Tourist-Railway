@@ -123,9 +123,9 @@
                     <div  id="tab2" class="event_nav_2">
                         <a href="Javascript:void(0);" onclick="two();">&nbsp;</a>
                     </div>
-                    <div  id="tab3" class="event_nav_3">
+<!--                     <div  id="tab3" class="event_nav_3">
                         <a href="Javascript:void(0);" onclick="three();">&nbsp;</a>
-                    </div>
+                    </div> -->
 
                     <br style="clear:left;"/>
                     <div class="viewAllEvents">
