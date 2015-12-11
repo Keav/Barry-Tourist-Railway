@@ -30,36 +30,34 @@
 
 <!-- ******************************** -->
 
+                <!-- <h4>News for 2015</h4> -->
+
                 <?php
-                $i = 0;
                 foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if ($now >= $releasedate) {
-                    for (; $i === 0; $i++) { ?>
+                  if ($now >= $releasedate) { ?>
 
-                    <h4>News for 2015</h4>
+                  <div class="news-item-row">
+                      <div class="newsimg">
+                          <div class="newsDate">
+                              <p> <span><?= htmlentities($value['newsdate']) ?></span></p>
+                          </div>
+                          <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="News Image" />
+                      </div>
 
-<div class="news-item-row">
-    <div class="newsimg">
-        <div class="newsDate">
-            <p> <?= htmlentities($value['newsdate']) ?></p>
-        </div>
-        <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="News Image" />
-    </div>
+                      <div class="grid_8">
+                          <h2><?= htmlentities($value['newstitle']) ?></h2>
 
-    <div class="grid_8">
-        <h2><?= htmlentities($value['newstitle']) ?></h2>
+                          <div class="container img-center">
+                              <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="Article Image">
+                          </div>
 
-        <div class="container img-center">
-            <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="Article Image">
-        </div>
+                          <p><?= nl2br(htmlentities($value['newscontent'])) ?></p>
+                      </div>
 
-        <?= nl2br(htmlentities($value['newscontent'])) ?>
-    </div>
-
-    <br style="clear:left;"/>&nbsp;
-</div>
-<?php } } } ?>
+                      <br style="clear:left;"/>&nbsp;
+                  </div>
+                <?php } } ?>
 
 <!-- ******************************** -->
 
