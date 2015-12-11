@@ -84,12 +84,12 @@
             <h1>Coming Up...</h1>
 
                 <?php
-                  $x = 0;
+                  $itemCounter = 0;
                   foreach ($events as $key => $value) {
                     $eventend = strtotime($key)+86399; /* Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day */
-                    if (($now <= $eventend) && ($x < 3)) { // Limit to only next 3 events
-                      $x++;
-                      $eventid = 'event'.$x; ?>
+                    if (($now <= $eventend) && ($itemCounter < 3)) { // Limit to only next 3 events
+                      $itemCounter++;
+                      $eventid = 'event'.$itemCounter; ?>
                 <!--START EVENT -->
                 <div id="<?= htmlentities($eventid) ?>">
                     <div class="home_event">
@@ -140,11 +140,11 @@
 
                 <!-- LATEST NEWS ITEM -->
                 <?php
-                $i = 0;
+
                 foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
                   if (($now >= $releasedate) && ($now < $releasedate+1209600)) { /* Release date plus 2 weeks 60*60*24*14 */
-                    for (; $i === 0; $i++) { ?>
+                ?>
 
                     <h1>Latest News</h1>
 
@@ -167,7 +167,7 @@
 
                         <br style="clear:left;"/>&nbsp;
                     </div>
-                <?php } } } ?>
+                <?php break; } } ?>
                 <!-- END LATEST NEWS ITEM -->
 
 <!--                 <div class="homeLinks">
