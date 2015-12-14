@@ -35,9 +35,12 @@
 
                 <!-- Single next event block -->
                 <?php
+                $eventsRemaining = 0;
                 foreach ($events as $key => $value) {
                   $eventend = strtotime($key)+86399; //Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day
-                  if ($now <= $eventend) { ?>
+                  if ($now <= $eventend) {
+                    $eventsRemaining++
+                    ?>
                       <div class="on_now_event">
                           <div class="grid_4_r">
                               <div class="on_now_img">
@@ -59,7 +62,8 @@
                           </div>
                           <br style="clear:left;"/>&nbsp;
                       </div>
-                  <?php break; } } ?>
+                  <?php break; } }
+                  if ($eventsRemaining < 1) { echo "<p>There are no events scheduled.</p><br><br>"; } ?>
                   <!-- End Single next event block -->
 
                   <h4>Upcoming Events</h4>
@@ -70,6 +74,7 @@
                   foreach ($events as $key => $value) {
                     $eventend = strtotime($key)+86399; //Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day
                       if ($now <= $eventend) {
+                        $eventsRemaining++;
                         if($first_item) { // Skip the first next event as it's already displayed in 'Next Event'.
                           $first_item = false;
                         } else {
@@ -94,7 +99,10 @@
 
                       <br style="clear:left;"/>&nbsp;
                   </div>
-                  <?php } } } ?>
+                  <?php
+                    } } }
+                    if ($eventsRemaining < 3) { echo "<p>There are no more events scheduled.</p>"; }
+                    ?>
                   <!-- End All remaining events block -->
             </div>
         </div>
