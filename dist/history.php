@@ -13,6 +13,7 @@
           switch($_SERVER['SERVER_NAME'])
           {
               case 'barrytouristrailway.co.uk':
+              case 'www.barrytouristrailway.co.uk':
                 include('includes/google-tag.php');
               break;
           }

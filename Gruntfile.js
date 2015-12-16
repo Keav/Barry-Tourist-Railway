@@ -61,6 +61,28 @@ module.exports = function (grunt) {
             },
         },
 
+        // Strip comments - only appears to work in pure files i.e. pure php, not php embedded in html
+        comments: {
+            php: {
+                // Target-specific file lists and/or options go here.
+                options: {
+                    singleline: true,
+                    multiline: true
+                },
+                src: [ 'dist/index.php'] // files to remove comments from
+            },
+        },
+
+        // Strip CSS comments - here used to remove php comments from a php block within html.
+        // Works with php block if comments are marked with /* */ so CSS regex finds it.
+        stripCssComments: {
+            dist: {
+                files: {
+                    'dist/index.php': 'dist/index.php'
+                }
+            }
+        },
+
         htmlmin: {
             dist: {
                 options: {
@@ -284,7 +306,7 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['watch']);
 
     // Build for Staging
-    grunt.registerTask('build', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres:min', 'hashres:prod']);
+    grunt.registerTask('build', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'stripCssComments', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'hashres:min', 'hashres:prod']);
 
     // Bump release version numbers
     grunt.registerTask('release', ['bump:major']);

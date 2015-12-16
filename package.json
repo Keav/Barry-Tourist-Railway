@@ -13,7 +13,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Keav/Barry-Tourist-Railway.git"
-   },
+  },
   "devDependencies": {
     "grunt": "*",
     "grunt-autoprefixer": "*",
@@ -30,6 +30,8 @@
     "grunt-newer": "*",
     "grunt-responsive-images": "*",
     "grunt-shell": "*",
+    "grunt-strip-css-comments": "*",
+    "grunt-stripcomments": "*",
     "grunt-uncss": "*",
     "matchdep": "*"
   }
