@@ -89,54 +89,54 @@
                     $eventend = strtotime($key)+86399; /* Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day */
                     if (($now <= $eventend) && ($itemCounter < 3)) { // Limit to only next 3 events
                       $itemCounter++;
-                      $eventid = 'event'.$itemCounter;
-                      ?>
-                <!--START EVENT -->
-                <div id="<?= htmlentities($eventid) ?>">
-                    <div class="home_event">
-                        <div class="grid_4_r">
-                            <div class="on_now_img">
-                                <!-- EVENT IMAGE --> <img src="images/<?= htmlentities($value['eventimage']) ?>" alt=""/>
+                      $eventid = 'event'.$itemCounter; ?>
+
+                        <!--START EVENT -->
+                        <div id="<?= htmlentities($eventid) ?>">
+                            <div class="home_event">
+                                <div class="grid_4_r">
+                                    <div class="on_now_img">
+                                        <!-- EVENT IMAGE --> <img src="images/<?= htmlentities($value['eventimage']) ?>" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="grid_8">
+                                    <!-- EVENT TITLE --> <h3><?= htmlentities($value['eventtitle']) ?></h3>
+                                    <br style="clear:left;"/>
+                                    <div class="eventDate">
+                                        <img src="images/clock.png" alt=""/>
+                                         <!-- EVENT DATE --> <p><?= htmlentities($value['eventdate']) ?></p>
+                                        <br style="clear:left;"/>
+                                    </div>
+                                    <br style="clear:left;"/>
+                                    <!-- EVENT CONTENT --> <p><?= nl2br(htmlentities($value['eventcontent'])) ?></p>
+                                </div>
+                                <br style="clear:left;"/>&nbsp;
                             </div>
                         </div>
-                        <div class="grid_8">
-                            <!-- EVENT TITLE --> <h3><?= htmlentities($value['eventtitle']) ?></h3>
-                            <br style="clear:left;"/>
-                            <div class="eventDate">
-                                <img src="images/clock.png" alt=""/>
-                                 <!-- EVENT DATE --> <p><?= htmlentities($value['eventdate']) ?></p>
-                                <br style="clear:left;"/>
-                            </div>
-                            <br style="clear:left;"/>
-                            <!-- EVENT CONTENT --> <p><?= nl2br(htmlentities($value['eventcontent'])) ?></p>
-                        </div>
-                        <br style="clear:left;"/>&nbsp;
-                    </div>
-                </div>
-                <!--END EVENT -->
-                <?php } }
-                while ($itemCounter < 3) {
-                  $itemCounter++;
-                  $eventid = 'event'.$itemCounter;
-                ?>
-                <!--START EVENT -->
-                <div id="<?= htmlentities($eventid) ?>">
-                    <div class="home_event">
-                        <p>There are no more events scheduled.</p>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br style="clear:left;"/>&nbsp;
-                    </div>
-                </div>
-                <!--END EVENT -->
-                <?php } ?>
+                        <!--END EVENT -->
+
+                  <?php } } while ($itemCounter < 3) {
+                    $itemCounter++;
+                    $eventid = 'event'.$itemCounter; ?>
+
+                      <!--START EVENT -->
+                      <div id="<?= htmlentities($eventid) ?>">
+                          <div class="home_event">
+                              <p>There are no more events scheduled.</p>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br style="clear:left;"/>&nbsp;
+                          </div>
+                      </div>
+                      <!--END EVENT -->
+                  <?php } ?>
 
                <!--EVENT NAVIGATION-->
                 <div class="right">
@@ -162,12 +162,9 @@
 
 
                 <!-- LATEST NEWS ITEM -->
-                <?php
-
-                foreach ($news as $key => $value) {
+                <?php foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) { /* Release date plus 2 weeks 60*60*24*14 */
-                ?>
+                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) { /* Release date plus 2 weeks 60*60*24*14 */ ?>
 
                     <h1>Latest News</h1>
 
