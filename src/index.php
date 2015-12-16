@@ -89,7 +89,8 @@
                     $eventend = strtotime($key)+86399; /* Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day */
                     if (($now <= $eventend) && ($itemCounter < 3)) { // Limit to only next 3 events
                       $itemCounter++;
-                      $eventid = 'event'.$itemCounter; ?>
+                      $eventid = 'event'.$itemCounter;
+                      ?>
                 <!--START EVENT -->
                 <div id="<?= htmlentities($eventid) ?>">
                     <div class="home_event">
@@ -113,7 +114,29 @@
                     </div>
                 </div>
                 <!--END EVENT -->
-                <?php } } ?>
+                <?php } }
+                while ($itemCounter < 3) {
+                  $itemCounter++;
+                  $eventid = 'event'.$itemCounter;
+                ?>
+                <!--START EVENT -->
+                <div id="<?= htmlentities($eventid) ?>">
+                    <div class="home_event">
+                        <p>There are no more events scheduled.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br style="clear:left;"/>&nbsp;
+                    </div>
+                </div>
+                <!--END EVENT -->
+                <?php } ?>
 
                <!--EVENT NAVIGATION-->
                 <div class="right">
@@ -123,9 +146,9 @@
                     <div  id="tab2" class="event_nav_2">
                         <a href="Javascript:void(0);" onclick="two();">&nbsp;</a>
                     </div>
-<!--                     <div  id="tab3" class="event_nav_3">
+                    <div  id="tab3" class="event_nav_3">
                         <a href="Javascript:void(0);" onclick="three();">&nbsp;</a>
-                    </div> -->
+                    </div>
 
                     <br style="clear:left;"/>
                     <div class="viewAllEvents">
