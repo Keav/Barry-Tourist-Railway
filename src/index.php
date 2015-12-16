@@ -87,7 +87,7 @@
                   $itemCounter = 0;
                   foreach ($events as $key => $value) {
                     $eventend = strtotime($key)+86399; /* Last date of event (which is 1 second into that date i.e. on the MORNING of the date) plus 23 hours 59 minutes to make it the end of that day */
-                    if (($now <= $eventend) && ($itemCounter < 3)) { // Limit to only next 3 events
+                    if (($now <= $eventend) && ($itemCounter < 3)) { /* Limit to only next 3 events */
                       $itemCounter++;
                       $eventid = 'event'.$itemCounter; ?>
 
