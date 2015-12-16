@@ -160,8 +160,7 @@
               Park and Ride at the Waterfront Station car park (Hood Road / Powell Duffryn Way - Post Code CF62 5QR)
               A frequent shuttle train service will operate from the Waterfront Station to Barry Island Station, commencing at 18.15 hrs.
               After the fireworks, the shuttle service will recommence with the last train leaving Barry Island for the Waterfront at 21.00hrs.
-              Fare £5 per car.
-'
+              Fare £5 per car.'
         ),
         '13-12-2015' => array(
             'eventtitle' => 'Santa Special',
@@ -174,6 +173,6 @@
             'eventdate' => 'Saturday December 19th & Sunday December 20th',
             'eventimage' => 'santa_special_s.jpg',
             'eventcontent' => ''
-        ),
+        )
     );
 ?>
