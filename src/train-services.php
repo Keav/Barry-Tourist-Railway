@@ -53,7 +53,7 @@
                 <div class="trainServiceTop">
                     <p>We operate services for passengers on dates throughout the year, using either our own trains, or one of our regular visiting steam locomotives.  At Barry we have a heritage 1957 Diesel Multiple Unit (DMU Class 101), called Iris II that we have refurbished and turned into a comfortable passenger environment.  We also have a Class 73 diesel locomotive, which can typically be seen hauling Mk 2f passenger coaches.</p>
 
-                    <h3>Dates &amp; Times for 2015</h3>
+                    <h3>Dates &amp; Times for 2016</h3>
 
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
 
@@ -71,11 +71,11 @@
 
                 <div class="grid_3_r" id="ticketPrices">
                     <img src="images/tickets.jpg" alt=""/>
-                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£7</p>
+                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£7.50</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£4</p>
+                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£4.50</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£15</p>
+                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£16</p>
                     <br style="clear:both;"/>
                 </div>
                 <br style="clear:left;"/>
