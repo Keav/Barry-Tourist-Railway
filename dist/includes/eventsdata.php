@@ -28,6 +28,80 @@
             'eventdate' => 'Easter Monday March 28th',
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
+        ),
+
+        '28-05-2016' => array(
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Saturday 28th May',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => "We're running 3-days over the SPRING Bank Holiday.
+
+On Saturday 28th, Sunday 29th and Monday 30th May we intend to offer 'DRIVER FOR A FIVER' driving experiences between Barry Island Station and our Plymouth Road Platform with on our Sentinel Steam Loco (Susan, Works No 9537 built 1952) - this will be a rare chance to drive a Sentinel steam engine.
+
+We'll also be running our IRIS II Railcar set (ex BR Derby Research Class 101) on 'out and back' services from Barry Island Station to Gladstone Bridge Platform on these three days. Trains depart at 11.35, 13.10, 14.10 and 15.10 from Barry Island Station each day for the 40 minute 'round trip' which include a guided locomotive shed tour.
+
+Our Barry at War Military Museum will also be open at Barry Island Station.
+
+Fun for enthusiast and the family alike .......and no need to book....... just turn up and go.
+
+Fares are £7.50 adult, £4.50 child, £16 Family for day tickets.
+Enthusiasts 3-day unlimited travel 'Spring Easy Rider' ticket £20 adult, £10 accompanied child.
+
+Please note we reserve the right to change the roster and substitute the booked train set for another should, for any reason, the rostered set, loco or crew not be available."
+        ),
+
+        '29-05-2016' => array(
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Sunday 29th May',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => "We're running 3-days over the SPRING Bank Holiday.
+
+On Saturday 28th, Sunday 29th and Monday 30th May we intend to offer 'DRIVER FOR A FIVER' driving experiences between Barry Island Station and our Plymouth Road Platform with on our Sentinel Steam Loco (Susan, Works No 9537 built 1952) - this will be a rare chance to drive a Sentinel steam engine.
+
+We'll also be running our IRIS II Railcar set (ex BR Derby Research Class 101) on 'out and back' services from Barry Island Station to Gladstone Bridge Platform on these three days. Trains depart at 11.35, 13.10, 14.10 and 15.10 from Barry Island Station each day for the 40 minute 'round trip' which include a guided locomotive shed tour.
+
+Our Barry at War Military Museum will also be open at Barry Island Station.
+
+Fun for enthusiast and the family alike .......and no need to book....... just turn up and go.
+
+Fares are £7.50 adult, £4.50 child, £16 Family for day tickets.
+Enthusiasts 3-day unlimited travel 'Spring Easy Rider' ticket £20 adult, £10 accompanied child.
+
+Please note we reserve the right to change the roster and substitute the booked train set for another should, for any reason, the rostered set, loco or crew not be available."
+        ),
+
+        '30-05-2016' => array(
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Bank Holiday Monday 30th May',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => "We're running 3-days over the SPRING Bank Holiday.
+
+On Saturday 28th, Sunday 29th and Monday 30th May we intend to offer 'DRIVER FOR A FIVER' driving experiences between Barry Island Station and our Plymouth Road Platform with on our Sentinel Steam Loco (Susan, Works No 9537 built 1952) - this will be a rare chance to drive a Sentinel steam engine.
+
+We'll also be running our IRIS II Railcar set (ex BR Derby Research Class 101) on 'out and back' services from Barry Island Station to Gladstone Bridge Platform on these three days. Trains depart at 11.35, 13.10, 14.10 and 15.10 from Barry Island Station each day for the 40 minute 'round trip' which include a guided locomotive shed tour.
+
+Our Barry at War Military Museum will also be open at Barry Island Station.
+
+Fun for enthusiast and the family alike .......and no need to book....... just turn up and go.
+
+Fares are £7.50 adult, £4.50 child, £16 Family for day tickets.
+Enthusiasts 3-day unlimited travel 'Spring Easy Rider' ticket £20 adult, £10 accompanied child.
+
+Please note we reserve the right to change the roster and substitute the booked train set for another should, for any reason, the rostered set, loco or crew not be available."
+        ),
+
+        '03-09-2016' => array(
+            'eventtitle' => 'Barry At War Weekend',
+            'eventdate' => 'Saturday September 3rd',
+            'eventimage' => 'barry_at_war.jpg',
+            'eventcontent' => ''
+        ),
+
+        '04-09-2016' => array(
+            'eventtitle' => 'Barry At War Weekend',
+            'eventdate' => 'Sunday September 4th',
+            'eventimage' => 'barry_at_war.jpg',
+            'eventcontent' => ''
         )
     );
 
