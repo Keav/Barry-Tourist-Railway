@@ -186,7 +186,7 @@ Please note we reserve the right to change the roster and substitute the booked 
         '04-09-2016' => array(
             'eventtitle' => 'Barry At War Weekend',
             'eventdate' => 'Sunday September 4th',
-            'eventimage' => 'barry_at_war.jpg',
+            'eventimage' => 'barry_at_war_2012_tn.jpg',
             'eventcontent' => ''
         ),
 
