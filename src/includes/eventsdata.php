@@ -90,6 +90,92 @@ Enthusiasts 3-day unlimited travel 'Spring Easy Rider' ticket £20 adult, £10 a
 Please note we reserve the right to change the roster and substitute the booked train set for another should, for any reason, the rostered set, loco or crew not be available."
         ),
 
+/* ************************************************************** */
+
+        '12-06-2016' => array(
+            'eventtitle' => 'Transport Festival and Red Arrows Display',
+            'eventdate' => 'Saturday June 12th',
+            'eventimage' => 'red_arrows_tn.jpg',
+            'eventcontent' => ''
+        ),
+
+        '30-07-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday July 30th',
+            'eventimage' => 'electro-diesel-gala.jpg',
+            'eventcontent' => ''
+        ),
+
+        '31-07-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Sunday July 31st',
+            'eventimage' => 'electro-diesel-gala.jpg',
+            'eventcontent' => ''
+        ),
+
+        '06-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday August 6th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '07-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Sunday August 7th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '13-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday August 13th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '14-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Sunday August 14th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '20-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday August 20th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '21-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Sunday August 21st',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '27-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Saturday August 27th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '28-08-2016' => array(
+            'eventtitle' => 'Normal Operating Day',
+            'eventdate' => 'Sunday August 28th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
+        '29-08-2016' => array(
+            'eventtitle' => 'August Bank Holiday',
+            'eventdate' => 'Monday August 29th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => ''
+        ),
+
         '03-09-2016' => array(
             'eventtitle' => 'Barry At War Weekend',
             'eventdate' => 'Saturday September 3rd',
@@ -102,7 +188,43 @@ Please note we reserve the right to change the roster and substitute the booked 
             'eventdate' => 'Sunday September 4th',
             'eventimage' => 'barry_at_war.jpg',
             'eventcontent' => ''
+        ),
+
+        '05-11-2016' => array(
+            'eventtitle' => 'Bonfire Night Trains',
+            'eventdate' => 'Saturday November 5th',
+            'eventimage' => 'bonfire_night.jpg',
+            'eventcontent' => ''
+        ),
+
+        '10-12-2016' => array(
+            'eventtitle' => 'Santa Specials',
+            'eventdate' => 'Saturday December 10th',
+            'eventimage' => 'santa_special_s.jpg',
+            'eventcontent' => ''
+        ),
+
+        '11-12-2016' => array(
+            'eventtitle' => 'Santa Specials',
+            'eventdate' => 'Sunday December 11th',
+            'eventimage' => 'santa_special_s.jpg',
+            'eventcontent' => ''
+        ),
+
+        '17-12-2016' => array(
+            'eventtitle' => 'Santa Specials',
+            'eventdate' => 'Saturday December 17th',
+            'eventimage' => 'santa_special_s.jpg',
+            'eventcontent' => ''
+        ),
+
+        '18-12-2016' => array(
+            'eventtitle' => 'Santa Specials',
+            'eventdate' => 'Sunday December 18th',
+            'eventimage' => 'santa_special_s.jpg',
+            'eventcontent' => ''
         )
+
     );
 
     // $events = array(
