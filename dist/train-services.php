@@ -125,7 +125,7 @@
                     </tr>
 
                     <tr class="even"><th><p>JUNE</p></th>
-                        <td class="special"><p>12<span>SAT</span></p></td>
+                        <td class="special"><p>12<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
