@@ -94,7 +94,7 @@ Please note we reserve the right to change the roster and substitute the booked 
 
         '12-06-2016' => array(
             'eventtitle' => 'Transport Festival and Red Arrows Display',
-            'eventdate' => 'Saturday June 12th',
+            'eventdate' => 'Sunday June 12th',
             'eventimage' => 'red_arrows_tn.jpg',
             'eventcontent' => ''
         ),
