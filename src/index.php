@@ -171,7 +171,7 @@
                     <div class="news-item-row">
                         <div class="newsimg">
                             <div class="newsDate">
-                                <p> <?= htmlentities($value['newsdate']) ?></p>
+                                <p> <?= htmlentities($value['newsday']) ?> <span><?= htmlentities($value['newsmonth']) ?></span></p>
                             </div>
                             <img src="images/<?= htmlentities($value['newsimage']) ?>" alt=""/>
                         </div>
