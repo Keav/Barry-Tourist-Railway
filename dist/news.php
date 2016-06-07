@@ -31,7 +31,7 @@
 
 <!-- ******************************** -->
 
-                <!-- <h4>News for 2015</h4> -->
+                <h4>News for 2016</h4>
 
                 <?php
                 foreach ($news as $key => $value) {
@@ -41,7 +41,7 @@
                   <div class="news-item-row">
                       <div class="newsimg">
                           <div class="newsDate">
-                              <p> <span><?= htmlentities($value['newsdate']) ?></span></p>
+                              <p><?= htmlentities($value['newsday']) ?> <span><?= htmlentities($value['newsmonth']) ?></span></p>
                           </div>
                           <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="News Image" />
                       </div>
