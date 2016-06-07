@@ -121,7 +121,7 @@ Please note we reserve the right to change the roster and substitute the booked 
         ),
 
         '07-08-2016' => array(
-            'eventtitle' => 'Normal Operating Day',
+            'eventtitle' => 'Toy and Train Fare',
             'eventdate' => 'Sunday August 7th',
             'eventimage' => 'summer-holiday-fun.jpg',
             'eventcontent' => ''
