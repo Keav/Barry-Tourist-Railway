@@ -96,7 +96,37 @@ Please note we reserve the right to change the roster and substitute the booked 
             'eventtitle' => 'Transport Festival and Red Arrows Display',
             'eventdate' => 'Sunday June 12th',
             'eventimage' => 'red_arrows_tn.jpg',
-            'eventcontent' => ''
+            'eventcontent' => '‘FESTIVAL OF TRANSPORT’ SUNDAY 12TH JUNE
+CATCH THE TRAIN TO SEE THE RED ARROWS DISPLAY AT BARRY ISLAND
+
+It’s going to be a busy SUNDAY 12TH JUNE at Barry Island for the island’s biggest event of the year. The FESTIVAL OF TRANSPORT, is to be held featuring the fabulous RED ARROWS AEROBATIC DISPLAY at1 12.00hrs. The roads will be congested so why not catch the 15minute interval ‘PARK & RIDE” SHUTTLE TRAIN service being operated by the Barry Tourist Railway from the Waterfront Station (CF62 5QR) to Barry Island STATION commencing at 09.15 hours?
+
+The two-centred event is to be held at Barry Island Railway Station, the headquarters of the Barry Tourist Railway, and the Promenade of Whitmore Bay. The centre-piece of the event will be the RED ARROWS AEROBATIC DISPLAY at 12.00hrs at Whitmore Bay, Barry Island but there’s plenty of other things to see on the Island including the fabulous re-vamped FUN-FAIR!
+
+John Buxton, Director of the Barry Tourist Railway said, ‘We are really excited about the event and my Company, CAMBRIAN TRANSPORT is pleased to be the main sponsor of the Red Arrows display. I’m pleased that we have enlisted the support of many Barry Island Traders this year to help make the display happen including John’s Café, Marco’s, O’Shea’s Café and Danter’s Fun Fair. Our last ‘RED ARROWS’ event brought over 40.000 people to Barry Island and year by year it’s growing and growing!’
+
+The FESTIVAL OF TRANSPORT is becoming one of the biggest events of its kind in the country with an amazing display of road transport vehicles including vintage buses, lorries, cars, motor-cycles displays and military vehicles. There will also be auto jumble and vintage stalls on the promenade, not forgetting the superb Barry at War Museum inside Barry Island Station.
+
+“Barry is a great place and we’re so pleased that we have secured the Red Arrows again for the event. Why not come along in vintage clothes and really get into the swing?’, concluded John.
+
+SOME KEY INFORMATION ABOUT THE EVENT
+
+GETTING THERE – IF YOU’RE PLANNING TO BRING YOUR CAR - PARK AT THE HOOD ROAD WATERFRONT STATION CAR PARK (CF62 5QR) AND CATCH OUR SHUTTLE TRAIN TO BARRY ISLAND TO AVOID THE QUEUES
+
+THERE WILL BE A VINTAGE SHUTTLE TRAINS EVERY 15 MINUTES FROM THE WATERFRONT STATION TO BARRY ISLAND FROM 09.15HRS TO 16.00HRS.
+
+PARKING AND INCLUSIVE FARES FROM THE WATERFRONT STN ARE £5 PER CAR (UP TO 5 PEOPLE) & £10 PER MPV (6 – 12 PEOPLE)
+
+OR CATCH THE REGULAR ARRIVA WALES TRAIN FROM CARDIFF STRAIGHT TO BARRY ISLAND STATION WHERE THE EVENT IS CENTRED
+
+THE RED ARROWS DISPLAY WILL BE AT 12.00HRS ON SUNDAY 12TH JUNE.
+
+WE WILL ALSO HAVE OUR MUSEUM OPEN AT BARRY ISLAND STATION & OUR HERITAGE CAFÉ WILL BE SERVING DRINKS AND LIGHT SNACKS
+
+THERE ARE  STALLS AND VINTAGE / MILITARY VEHICLES AT THE STATION AND BEHIND THE PROMENADE AT WHITMORE BAY
+
+THIS GREAT EVENT HAS SOMETHING FOR EVERYONE, COME RAIN OR SHINE.
+'
         ),
 
         '30-07-2016' => array(
