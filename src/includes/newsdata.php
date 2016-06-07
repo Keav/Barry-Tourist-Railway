@@ -3,6 +3,21 @@
 
     $news = array(
 
+        '04-06-2016' => array(
+            // 'releasedate' => ''
+            'newstitle' => 'RAIL FAN BRINGS RED ARROWS TO BARRY ISLAND',
+            'newsday' => '12',
+            'newsmonth' => 'JUN',
+            'newsimage' => 'red_arrows.jpg',
+            'newscontent' =>
+            '
+                John Buxton, the man who has brought life back to the Tourist Railway in Barry, has been a big fan of anything to do with transport.
+
+                ‘This year I was determined to help make the annual Festival of Transport the the biggest and best so far, so I made an early application to the RAF Display Team to secure the Red Arrows for Barry Island’, said John. ‘This will be the third year that I have secured the Red Arrows for an event at Barry Island - we had a scintillating display from them in 2014 but unfortunately the low cloud defeated us last year, but we still had a ‘fly-past’. This year we are keeping our fingers crossed for good weather’, concluded John
+
+                He went on to say, ‘I’m keen to see the Festival of Transport grow to become one of the biggest in the country and will help as much as I can to help achieve this aim. In another role, I was one of the first sponsors of this event and now, with the Red Arrows coming, we’ve got the best promotion you could ever wish for’, said John.'
+        ),
+
 /*        '16-06-2015' => array(
             'newstitle' => '\'BARRY AT WAR\' THIS WEEKEND',
             'newsdate' => '16 JUN',
