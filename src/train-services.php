@@ -172,19 +172,18 @@
                         <td>&nbsp;</td>
                     </tr>
 
-                   <!-- <tr class="odd"><th><p>SEPTEMBER</p></th>
+                   <tr class="odd"><th><p>SEPTEMBER</p></th>
+                        <td class="special"><p>4<span>SAT</span></p></td>
+                        <td class="special"><p>5<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td></tr> -->
+                        <td>&nbsp;</td></tr>
 
-                    <tr class="odd"><th><p>NOVEMEBER</p></th>
+                    <tr class="even"><th><p>NOVEMEBER</p></th>
                         <td class="special"><p>5<span>SAT</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -196,7 +195,7 @@
                         <td>&nbsp;</td>
                     </tr>
 
-                    <tr class="even"><th><p>DECEMBER</p></th>
+                    <tr class="odd"><th><p>DECEMBER</p></th>
                         <td class="santa"><p>10<span>SAT</span></p></td>
                         <td class="santa"><p>11<span>SUN</span></p></td>
                         <td>&nbsp;</td>
