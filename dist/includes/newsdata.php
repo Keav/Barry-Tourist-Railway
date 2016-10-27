@@ -3,15 +3,38 @@
 
     $news = array(
 
+        '25-10-2016' => array(
+            // 'releasedate' => ''
+            'newstitle' => 'Bonfire Night Trains',
+            'newsday' => '25',
+            'newsmonth' => 'OCT',
+            'newsimage' => 'bonfire_night.jpg',
+            'newsitemimage' => '',
+            'newscontent' =>
+            'Beat the jams and Park and Ride for the Firework Display on 5th November!
+
+The Barry Tourist Railway is running a shuttle service from their Waterfront Station, (off Hood Road opposite ASDA) to Barry Island for the firework display on the evening of Saturday 5th November.
+
+There is plenty of car parking space right behind the Waterfront Station platform and we will be running our main line carriages powered by our Class 73 locomotive.
+
+The first train departs the Waterfront at 18.30hrs and trains run at 20 minute intervals until 19.50hrs.
+After the display ends, the shuttle service recommences from Barry Island Station to the Waterfront, with the last train leaving Barry Island at 21.00hrs.
+
+Park and Ride fares are £5 for a family or group of up to 4 people and £10 for a vehicle up to 10 people.
+You can pay on the train (cash only).
+
+Step back in time on our vintage train and beat the Queues!'
+        ),
+
         '04-06-2016' => array(
             // 'releasedate' => ''
             'newstitle' => 'RAIL FAN BRINGS RED ARROWS TO BARRY ISLAND',
             'newsday' => '12',
             'newsmonth' => 'JUN',
             'newsimage' => 'red_arrows.jpg',
+            'newsitemimage' => 'red_arrows.jpg',
             'newscontent' =>
-            '
-                John Buxton, the man who has brought life back to the Tourist Railway in Barry, has been a big fan of anything to do with transport.
+            'John Buxton, the man who has brought life back to the Tourist Railway in Barry, has been a big fan of anything to do with transport.
 
                 ‘This year I was determined to help make the annual Festival of Transport the the biggest and best so far, so I made an early application to the RAF Display Team to secure the Red Arrows for Barry Island’, said John. ‘This will be the third year that I have secured the Red Arrows for an event at Barry Island - we had a scintillating display from them in 2014 but unfortunately the low cloud defeated us last year, but we still had a ‘fly-past’. This year we are keeping our fingers crossed for good weather’, concluded John
 
