@@ -49,9 +49,11 @@
                       <div class="grid_8">
                           <h2><?= htmlentities($value['newstitle']) ?></h2>
 
+                          <?php if ($value['newsitemimage']) { ?>
                           <div class="container img-center">
-                              <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="Article Image">
+                              <img src="images/<?= htmlentities($value['newsitemimage']) ?>" alt="Article Image">
                           </div>
+                          <?php } ?>
 
                           <p><?= nl2br(htmlentities($value['newscontent'])) ?></p>
                       </div>

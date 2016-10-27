@@ -224,7 +224,20 @@ THIS GREAT EVENT HAS SOMETHING FOR EVERYONE, COME RAIN OR SHINE.
             'eventtitle' => 'Bonfire Night Trains',
             'eventdate' => 'Saturday November 5th',
             'eventimage' => 'bonfire_night.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'Beat the jams and Park and Ride for the Firework Display on 5th November!
+
+The Barry Tourist Railway is running a shuttle service from their Waterfront Station, (off Hood Road opposite ASDA) to Barry Island for the firework display on the evening of Saturday 5th November.
+
+There is plenty of car parking space right behind the Waterfront Station platform and we will be running our main line carriages powered by our Class 73 locomotive.
+
+The first train departs the Waterfront at 18.30hrs and trains run at 20 minute intervals until 19.50hrs.
+After the display ends, the shuttle service recommences from Barry Island Station to the Waterfront, with the last train leaving Barry Island at 21.00hrs.
+
+Park and Ride fares are £5 for a family or group of up to 4 people and £10 for a vehicle up to 10 people.
+You can pay on the train (cash only).
+
+Step back in time on our vintage train and beat the Queues!
+'
         ),
 
         '10-12-2016' => array(
