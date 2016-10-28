@@ -230,7 +230,7 @@ The Barry Tourist Railway is running a shuttle service from their Waterfront Sta
 
 There is plenty of car parking space right behind the Waterfront Station platform and we will be running our main line carriages powered by our Class 73 locomotive.
 
-The first train departs the Waterfront at 18.30hrs and trains run at 20 minute intervals until 19.50hrs.
+The first train departs the Waterfront at 18.30hrs and trains run at 20 minute intervals until 19.30hrs.
 After the display ends, the shuttle service recommences from Barry Island Station to the Waterfront, with the last train leaving Barry Island at 21.00hrs.
 
 Park and Ride fares are £5 for a family or group of up to 4 people and £10 for a vehicle up to 10 people.
