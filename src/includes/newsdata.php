@@ -3,6 +3,27 @@
 
     $news = array(
 
+        '07-11-2016' => array(
+            // 'releasedate' => ''
+            'newstitle' => 'Santa Specials',
+            'newsday' => '7',
+            'newsmonth' => 'NOV',
+            'newsimage' => 'santa_special_s.jpg',
+            'newsitemimage' => '',
+            'newscontent' =>
+            'We’re now taking bookings for this year’s Santa Specials.
+
+The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
+
+Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+
+Adult fares: £9.50
+Children (Aged 1 to 16): £9.50
+Baby: £5
+
+Please call (07938) 126050 to book.'
+        ),
+
         '25-10-2016' => array(
             // 'releasedate' => ''
             'newstitle' => 'Bonfire Night Trains',
