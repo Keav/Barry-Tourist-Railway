@@ -244,28 +244,69 @@ Step back in time on our vintage train and beat the Queues!
             'eventtitle' => 'Santa Specials',
             'eventdate' => 'Saturday December 10th',
             'eventimage' => 'santa_special_s.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'We’re now taking bookings for this year’s Santa Specials.
+
+The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
+
+Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+
+Adult fares: £9.50
+Children (Aged 1 to 16): £9.50
+Baby: £5
+
+Please call (07938) 126050 to book.
+'
         ),
 
         '11-12-2016' => array(
             'eventtitle' => 'Santa Specials',
             'eventdate' => 'Sunday December 11th',
             'eventimage' => 'santa_special_s.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'We’re now taking bookings for this year’s Santa Specials.
+
+The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
+
+Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+
+Adult fares: £9.50
+Children (Aged 1 to 16): £9.50
+Baby: £5
+
+Please call (07938) 126050 to book.'
         ),
 
         '17-12-2016' => array(
             'eventtitle' => 'Santa Specials',
             'eventdate' => 'Saturday December 17th',
             'eventimage' => 'santa_special_s.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'We’re now taking bookings for this year’s Santa Specials.
+
+The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
+
+Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+
+Adult fares: £9.50
+Children (Aged 1 to 16): £9.50
+Baby: £5
+
+Please call (07938) 126050 to book.'
         ),
 
         '18-12-2016' => array(
             'eventtitle' => 'Santa Specials',
             'eventdate' => 'Sunday December 18th',
             'eventimage' => 'santa_special_s.jpg',
-            'eventcontent' => ''
+            'eventcontent' => 'We’re now taking bookings for this year’s Santa Specials.
+
+The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
+
+Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+
+Adult fares: £9.50
+Children (Aged 1 to 16): £9.50
+Baby: £5
+
+Please call (07938) 126050 to book.'
         )
 
     );
