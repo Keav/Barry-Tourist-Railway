@@ -3,10 +3,10 @@
 
     $news = array(
 
-        '07-11-2016' => array(
+        '21-11-2016' => array(
             // 'releasedate' => ''
             'newstitle' => 'Santa Specials',
-            'newsday' => '7',
+            'newsday' => '21',
             'newsmonth' => 'NOV',
             'newsimage' => 'santa_special_s.jpg',
             'newsitemimage' => '',
@@ -15,13 +15,21 @@
 
 The perfect way to start your Christmas. Join Santa Claus as we steam on the half hour return journey across the scenic Barry Island Causeway to the waterfront. All passengers to depart from and return to Barry Island where ample parking is available at the council’s carpark.
 
-Santa Claus will give every child a gift. Children will also receive a soft drink and adults will be given a glass of mulled wine and a mince pie.
+Tickets on our steam train are selling out fast this year!
 
-Adult fares: £9.50
-Children (Aged 1 to 16): £9.50
-Baby: £5
+Tickets are £9.50 per person to include a glass of hot mulled wine and seasonal mince pie for adults. Santa gives a good quality present for children on the train so there’s no queuing. For children under one year, the price is reduced to £5. Children also get a free soft drink.
 
-Please call (07938) 126050 to book.'
+A return journey from Barry Island Station takes about 30-40 mins.
+
+You can book by contacting Kathryn at Barry Tourist Railway on 02920 2051 1019 or 07938 126050.
+
+Please state the number of adults and children and the date you wish to go (we run on 10/11 and 17/18 December), also the train time you’d like to travel on viz: 11.45, 13.30, 14.30 & 15.30 from Barry Island.
+
+Please also let Kathryn know the age and name(s) of the child(ren) as we select appropriate presents for age etc and individually name each present.
+
+We have full disabled facilities.
+
+Looking forward to seeing you at Barry over the Yuletide!'
         ),
 
         '25-10-2016' => array(
