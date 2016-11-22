@@ -21,7 +21,7 @@ Tickets are £9.50 per person to include a glass of hot mulled wine and seasonal
 
 A return journey from Barry Island Station takes about 30-40 mins.
 
-You can book by contacting Kathryn at Barry Tourist Railway on 02920 2051 1019 or 07938 126050.
+You can book by contacting Kathryn at Barry Tourist Railway on 02920 511019 or 07938 126050.
 
 Please state the number of adults and children and the date you wish to go (we run on 10/11 and 17/18 December), also the train time you’d like to travel on viz: 11.45, 13.30, 14.30 & 15.30 from Barry Island.
 
