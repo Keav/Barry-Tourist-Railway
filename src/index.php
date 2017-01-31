@@ -81,7 +81,7 @@
             <!-- <div class="hrr" style="margin-top:40px;margin-bottom:40px;"></div> -->
 
             <div class="container" style="padding-top: 60px;">
-            <h1>Coming Up...</h1>
+            <h1>Coming Up for <?= date("Y"); ?>...</h1>
 
                 <?php
                   $itemCounter = 0;
