@@ -28,7 +28,7 @@
         <div class="contentSub" id="eventsPage">
             <div class="container">
 
-                <h1>2016 Events &amp; Operating Days</h1>
+                <h1><?= date("Y"); ?>&nbsp; Events &amp; Operating Days</h1>
 
                 <h1>Next Event</h1>
 
