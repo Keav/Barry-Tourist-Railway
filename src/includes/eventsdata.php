@@ -2,30 +2,30 @@
     $now = strtotime('now');
 
     $events = array(
-        '25-03-2016' => array(
+        '14-04-2017' => array(
             'eventtitle' => 'Easter Bunny Trains',
-            'eventdate' => 'Good Friday March 25th',
+            'eventdate' => 'Good Friday April 14th',
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
-        '26-03-2016' => array(
+        '15-04-2017' => array(
             'eventtitle' => 'Easter Bunny Trains',
-            'eventdate' => 'Easter Saturday March 26th',
+            'eventdate' => 'Easter Saturday April 15th',
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
-        '27-03-2016' => array(
+        '16-04-2017' => array(
             'eventtitle' => 'Easter Bunny Trains',
-            'eventdate' => 'Easter Sunday March 27th',
+            'eventdate' => 'Easter Sunday April 16th',
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
-        '28-03-2016' => array(
+        '17-04-2017' => array(
             'eventtitle' => 'Easter Bunny Trains',
-            'eventdate' => 'Easter Monday March 28th',
+            'eventdate' => 'Easter Monday April 17th',
             'eventimage' => 'easter_bunnies.jpg',
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
