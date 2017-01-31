@@ -53,7 +53,7 @@
                 <div class="trainServiceTop">
                     <p>We operate services for passengers on dates throughout the year, using either our own trains, or one of our regular visiting steam locomotives.  At Barry we have a heritage 1957 Diesel Multiple Unit (DMU Class 101), called Iris II that we have refurbished and turned into a comfortable passenger environment.  We also have a Class 73 diesel locomotive, which can typically be seen hauling Mk 2f passenger coaches.</p>
 
-                    <h3>Dates &amp; Times for 2016</h3>
+                    <h3>Dates &amp; Times for <?= date("Y"); ?></h3>
 
                     <p>On normal running days our train services depart from our Barry Island Train Station at</p>
 
@@ -88,23 +88,12 @@
                 <br style="clear:right;"/>
 
                 <table class="trainServicTable" >
-                    <tr class="odd"><th><p>MARCH</p></th>
-                        <td class="special"><p>25<span>FRI</span></p></td>
-                        <td class="special"><p>26<span>SAT</span></p></td>
-                        <td class="special"><p>27<span>SUN</span></p></td>
-                        <td class="special"><p>28<span>SUN</span></p></td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
 
                     <tr class="even"><th><p>APRIL</p></th>
-                        <td><p>30<span>SAT</span></p></td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td class="special"><p>14<span>FRI</span></p></td>
+                        <td class="special"><p>15<span>SAT</span></p></td>
+                        <td class="special"><p>16<span>SUN</span></p></td>
+                        <td class="special"><p>17<span>MON</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -113,19 +102,19 @@
                     </tr>
 
                     <tr class="odd"><th><p>MAY</p></th>
-                        <td><p>1<span>SUN</span></p></td>
-                        <td><p>2<span>MON</span></p></td>
                         <td>&nbsp;</td>
-                        <td><p>9<span>SAT</span></p></td>
                         <td>&nbsp;</td>
-                        <td><p>28<span>SAT</span></p></td>
-                        <td><p>29<span>SUN</span></p></td>
-                        <td><p>30<span>MON</span></p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
 
                     <tr class="even"><th><p>JUNE</p></th>
-                        <td class="special"><p>12<span>SUN</span></p></td>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -137,8 +126,8 @@
                     </tr>
 
                     <tr class="odd"><th><p>JULY</p></th>
-                        <td><p>30<span>SAT</span></p></td>
-                        <td><p>31<span>SUN</span></p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -149,21 +138,9 @@
                     </tr>
 
                     <tr class="even"><th><p>AUGUST</p></th>
-                        <td><p>6<span>SAT</span></p></td>
-                        <td><p>7<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td><p>13<span>SAT</span></p></td>
-                        <td><p>14<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                        <td><p>20<span>SAT</span></p></td>
-                        <td><p>21<span>SUN</span></p></td>
                         <td>&nbsp;</td>
-                    </tr>
-
-                    <tr class="even"><th><p>AUGUST</p></th>
-                        <td><p>27<span>SAT</span></p></td>
-                        <td><p>28<span>SUN</span></p></td>
-                        <td><p>29<span>MON</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -173,8 +150,8 @@
                     </tr>
 
                    <tr class="odd"><th><p>SEPTEMBER</p></th>
-                        <td class="special"><p>4<span>SAT</span></p></td>
-                        <td class="special"><p>5<span>SUN</span></p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -183,8 +160,8 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td></tr>
 
-                    <tr class="even"><th><p>NOVEMEBER</p></th>
-                        <td class="special"><p>5<span>SAT</span></p></td>
+                    <tr class="even"><th><p>OCTOBER</p></th>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -195,12 +172,24 @@
                         <td>&nbsp;</td>
                     </tr>
 
-                    <tr class="odd"><th><p>DECEMBER</p></th>
-                        <td class="santa"><p>10<span>SAT</span></p></td>
-                        <td class="santa"><p>11<span>SUN</span></p></td>
+                    <tr class="odd"><th><p>NOVEMBER</p></th>
                         <td>&nbsp;</td>
-                        <td class="santa"><p>17<span>SAT</span></p></td>
-                        <td class="santa"><p>18<span>SUN</span></p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+
+                    <tr class="even"><th><p>DECEMBER</p></th>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>

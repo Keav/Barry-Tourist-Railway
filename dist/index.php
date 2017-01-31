@@ -6,7 +6,7 @@
                 include('includes/google-tag.php');
               break;
           }
-        ?> <div id="headerHome"> <?php include('includes/header.php'); ?> </div><div class="content" id="homePage"><div class="container"><div class="homeLinks"><a href="about.php"><img src="images/about-the-railway.jpg" alt=""></a><a href="http://www.flickr.com/photos/barrytouristrailway/" target="_blank"><img src="images/view-the-gallery.jpg" alt=""></a><a href="news.php"><img src="images/read-the-news.jpg" alt=""></a><a href="train-services.php"><img src="images/take-the-train.jpg" alt="" id="end"></a></div></div><div class="hrr" style="margin-top:30px;margin-bottom:30px"></div><div class="container" style="padding-top: 60px"><h1>Coming Up...</h1> <?php
+        ?> <div id="headerHome"> <?php include('includes/header.php'); ?> </div><div class="content" id="homePage"><div class="container"><div class="homeLinks"><a href="about.php"><img src="images/about-the-railway.jpg" alt=""></a><a href="http://www.flickr.com/photos/barrytouristrailway/" target="_blank"><img src="images/view-the-gallery.jpg" alt=""></a><a href="news.php"><img src="images/read-the-news.jpg" alt=""></a><a href="train-services.php"><img src="images/take-the-train.jpg" alt="" id="end"></a></div></div><div class="hrr" style="margin-top:30px;margin-bottom:30px"></div><div class="container" style="padding-top: 60px"><h1>Coming Up for <?= date("Y"); ?>...</h1> <?php
                   $itemCounter = 0;
                   foreach ($events as $key => $value) {
                     $eventend = strtotime($key)+86399; 
