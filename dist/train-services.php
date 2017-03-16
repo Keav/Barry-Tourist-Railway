@@ -71,11 +71,11 @@
 
                 <div class="grid_3_r" id="ticketPrices">
                     <img src="images/tickets.jpg" alt=""/>
-                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£7.50</p>
+                    <p class="ticketType">ADULTS</p><p class="ticketPrice">£9.50</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£4.50</p>
+                    <p class="ticketType">CHILDREN</p><p class="ticketPrice">£5.00</p>
                     <br style="clear:both;"/>
-                    <p class="ticketType">FAMILY <span>(2 adults 2 children)</span></p><p class="ticketPrice">£16</p>
+                    <p class="ticketType">FAMILY <span>(2 adults and up to 3 children)</span></p><p class="ticketPrice">£23</p>
                     <br style="clear:both;"/>
                 </div>
                 <br style="clear:left;"/>
@@ -97,24 +97,24 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td><p>29<span>SAT</span></p></td>
+                        <td><p>30<span>SUN</span></p></td>
                     </tr>
 
                     <tr class="odd"><th><p>MAY</p></th>
+                        <td><p>1<span>MON</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td><p>27<span>SAT</span></p></td>
+                        <td><p>28<span>SUN</span></p></td>
+                        <td><p>29<span>MON</span></p></td>
                     </tr>
 
                     <tr class="even"><th><p>JUNE</p></th>
-                        <td>&nbsp;</td>
+                        <td class="special"><p>11<span>SUN</span></p></td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -133,20 +133,20 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td><p>29<span>SAT</span></p></td>
+                        <td><p>30<span>SUN</span></p></td>
                     </tr>
 
                     <tr class="even"><th><p>AUGUST</p></th>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td><p>5<span>SAT</span></p></td>
+                        <td><p>6<span>SUN</span></p></td>
+                        <td><p>12<span>SAT</span></p></td>
+                        <td><p>13<span>SUN</span></p></td>
+                        <td><p>19<span>SAT</span></p></td>
+                        <td><p>20<span>SUN</span></p></td>
+                        <td><p>26<span>SAT</span></p></td>
+                        <td><p>27<span>SUN</span></p></td>
+                        <td><p>28<span>MON</span></p></td>
                     </tr>
 
                    <tr class="odd"><th><p>SEPTEMBER</p></th>
