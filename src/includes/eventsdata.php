@@ -33,51 +33,51 @@
             'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
 
         '29-04-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Bank Holiday Weekend',
+            'eventdate' => 'Saturday April 29th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great May Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
         '30-04-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Bank Holiday Weekend',
+            'eventdate' => 'Sunday April 30th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great May Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
         '01-05-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Bank Holiday Weekend',
+            'eventdate' => 'Bank Holiday Monday May 1st',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great May Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '27-05-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Saturday May 27th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great Spring Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
         '28-05-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Sunday May 28th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great Spring Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
         '29-05-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Spring Bank Holiday',
+            'eventdate' => 'Bank Holiday Monday May 29th',
+            'eventimage' => 'summer-holiday-fun.jpg',
+            'eventcontent' => 'Come along to another great Spring Bank Holiday weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
         ),
 
 /* ************************************************************** *
@@ -177,4 +177,6 @@
         ),
 
 /* ************************************************************** */
+)
+
 ?>
