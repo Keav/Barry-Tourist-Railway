@@ -31,12 +31,54 @@
 
 <!-- ******************************** -->
 
+                <h4>News for 2017</h4>
+
+                <?php
+                foreach ($news as $key => $value) {
+                  $releasedate = strtotime($key);
+
+                  $year = "2017/01/01";
+                  $currentyear = strtotime($year);
+
+                  if ($now >= $releasedate && $releasedate >= $currentyear) { ?>
+
+                  <div class="news-item-row">
+                      <div class="newsimg">
+                          <div class="newsDate">
+                              <p><?= htmlentities($value['newsday']) ?> <span><?= htmlentities($value['newsmonth']) ?></span></p>
+                          </div>
+                          <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="News Image" />
+                      </div>
+
+                      <div class="grid_8">
+                          <h2><?= htmlentities($value['newstitle']) ?></h2>
+
+                          <?php if ($value['newsitemimage']) { ?>
+                          <div class="container img-center">
+                              <img src="images/<?= htmlentities($value['newsitemimage']) ?>" alt="Article Image">
+                          </div>
+                          <?php } ?>
+
+                          <p><?= nl2br(htmlentities($value['newscontent'])) ?></p>
+                      </div>
+
+                      <br style="clear:left;"/>&nbsp;
+                  </div>
+                <?php } } ?>
+
+<!-- ******************************** -->
+
+
                 <h4>News for 2016</h4>
 
                 <?php
                 foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if ($now >= $releasedate) { ?>
+
+                  $year = "2017/01/01";
+                  $currentyear = strtotime($year);
+
+                  if ($now >= $releasedate && $releasedate < $currentyear) { ?>
 
                   <div class="news-item-row">
                       <div class="newsimg">
