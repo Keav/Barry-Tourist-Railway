@@ -105,74 +105,74 @@
             'eventcontent' => ''
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '05-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Miniature Railway Display (Gauge 3 Trains)',
+            'eventdate' => 'Saturday August 5th',
+            'eventimage' => 'toy_faire_s.jpg',
             'eventcontent' => ''
         ),
 
         '06-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
-            'eventcontent' => ''
+            'eventtitle' => 'Toy and Train Fair',
+            'eventdate' => 'Sunday August 6th',
+            'eventimage' => 'red_arrows_tn.jpg',
+            'eventcontent' => 'Once again the Red Arrows will Display at Barry Island on Sunday 6th August 2017.  The Railway will also be hosting a Toy and Train Fair at Barry Island Station on this day, so there will be two good reasons to visit Barry Island!'
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '12-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Saturday August 12th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
         '13-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Sunday August 13th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '19-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Saturday August 19th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
         '20-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Sunday August 20th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '26-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Saturday August 26th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
         '27-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Sunday August 27th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
         '28-08-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'August Bank Holiday - Community Day',
+            'eventdate' => 'Monday August 28th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
