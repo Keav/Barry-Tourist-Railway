@@ -3,6 +3,28 @@
 
     $news = array(
 
+        '25-07-2017' => array(
+            // 'releasedate' => ''
+            'newstitle' => 'Red Arrows over Barry',
+            'newsday' => '25',
+            'newsmonth' => 'JUL',
+            'newsimage' => 'red_arrows.jpg',
+            'newsitemimage' => 'red_arrows.jpg',
+            'newscontent' =>
+            'GETTING READY FOR THE RED ARROWS DISPLAY AT BARRY ISLAND ON SUNDAY 6TH AUGUST 2017
+
+The Barry Tourist Railway is well on with preparations for this years Red Arrows Display at Barry Island on Sunday 6th August 2017.  The Railway will also be hosting a Toy and Train Fair at Barry Island Station on this day, so there will be two good reasons to visit Barry Island!
+
+John Buxton, Managing Director of The Barry Tourist Railway said, ‘Its great that we have also secured sponsorship from some Barry Island Traders this year. The display is a substantial financial investment and by sharing the costs, it is hoped that with continued support, we can make this amazing aerobatic display an annual event.”
+
+Huge improvements have been made to the visitor facilities at Barry Island over recent years by the Local Authorites, Henry Danter, Marcos and the Barry Tourist Railway, to name a few. More special events are also now taking place on the Island, a resort which is definitely on the up and up!
+
+“Barry Tourist Railway will be operating a regular 20 minute interval  ‘park and ride’ rail shuttle from our Waterfront Station to Barry Island Station tfrom 09.15hrs to 15.30hrs on Saturday August 6th, making it easy to get to the Island for the display”, concluded John.
+
+'
+        ),
+
+
         '21-11-2016' => array(
             // 'releasedate' => ''
             'newstitle' => 'Santa Specials',
