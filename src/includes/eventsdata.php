@@ -89,19 +89,19 @@
             'eventcontent' => ''
         ),
 
-/* ************************************************************** *
+/* ************************************************************** */
 
         '29-07-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Saturday July 29th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
         '30-07-2017' => array(
-            'eventtitle' => '',
-            'eventdate' => '',
-            'eventimage' => '',
+            'eventtitle' => 'Normal Running Day',
+            'eventdate' => 'Sunday July 30th',
+            'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
         ),
 
