@@ -124,17 +124,17 @@
 /* ************************************************************** */
 
         '12-08-2017' => array(
-            'eventtitle' => 'Normal Running Day',
+            'eventtitle' => 'Barry at War Open Day',
             'eventdate' => 'Saturday August 12th',
-            'eventimage' => 'transport-festival.jpg',
-            'eventcontent' => ''
+            'eventimage' => 'barry_at_war.jpg',
+            'eventcontent' => 'On Saturday we have a Barry at War Open Day at Barry Island Station between 10.30 and 15.30. There will be a military band of pipers performing and a 1940\'s Fashion Show amongst other things.'
         ),
 
         '13-08-2017' => array(
             'eventtitle' => 'Normal Running Day',
             'eventdate' => 'Sunday August 13th',
-            'eventimage' => 'transport-festival.jpg',
-            'eventcontent' => ''
+            'eventimage' => 'toy_faire_s.jpg',
+            'eventcontent' => 'On Sunday we are hosting a Craft Fair at Barry Island Station between 10.30 and 15:30.'
         ),
 
 /* ************************************************************** */
@@ -174,6 +174,18 @@
             'eventdate' => 'Monday August 28th',
             'eventimage' => 'transport-festival.jpg',
             'eventcontent' => ''
+        ),
+
+/* ************************************************************** */
+
+        '04-11-2017' => array(
+            'eventtitle' => 'Firework Display Running',
+            'eventdate' => 'Sat November 4th',
+            'eventimage' => 'bonfire_night.jpg',
+            'eventcontent' => 'We are operating a 20-minute interval ‘park and ride’ vintage shuttle train service from our Waterfront Station (Post Code CR62 5QR) to Barry Island Station from 18.30hrs to 19.30hrs, making it easy to get to the Island for the Firework Fiesta. ‘Park and ride’ for £5 per car (up to 5 people) or £10 per people carrier (6 – 10 people).
+
+Trains return to the Waterfront Station from Barry Island Station after the display with the last train departing Barry Island Station at 21.00hrs.
+'
         ),
 
 /* ************************************************************** */
