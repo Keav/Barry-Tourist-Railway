@@ -164,7 +164,7 @@
                 <!-- LATEST NEWS ITEM -->
                 <?php foreach ($news as $key => $value) {
                   $releasedate = strtotime($key);
-                  if (($now >= $releasedate) && ($now < $releasedate+1209600)) { /* Release date plus 2 weeks 60*60*24*14 */ ?>
+                  if (($now >= $releasedate) && ($now < $releasedate+604800)) { /* Release date plus 2 weeks 60*60*24*14 */ ?>
 
                     <h1>Latest News</h1>
 
