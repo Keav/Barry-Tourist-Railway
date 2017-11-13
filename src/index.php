@@ -178,9 +178,9 @@
                         <div class="grid_8">
                             <h2><?= htmlentities($value['newstitle']) ?></h2>
 
-                            <div class="container img-center">
-                                <img src="images/<?= htmlentities($value['newsimage']) ?>" alt="The Red Arrows">
-                            </div>
+                          <!--   <div class="container img-center">
+                                <img src="images/<?= htmlentities($value['newsitemimage']) ?>" alt="Item Image">
+                            </div> -->
 
                             <p><?= nl2br(htmlentities($value['newscontent'])) ?></p>
                         </div>
