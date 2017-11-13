@@ -3,6 +3,32 @@
 
     $news = array(
 
+      '10-11-2017' => array(
+            // 'releasedate' => ''
+            'newstitle' => 'Santa Specials',
+            'newsday' => '10',
+            'newsmonth' => 'NOV',
+            'newsimage' => 'santa_special_s.jpg',
+            'newsitemimage' => '',
+            'newscontent' =>
+            'Santa’s coming to the Barry Tourist Railway on the weekend of 16th / 17th and
+on Saturday 23rd December.
+
+The railway is getting ready to receive him.  Santa’s train will be pulled by either of our two steam locos, ‘Susan’ or ‘Jessie’.
+
+The Santa Special trains run from Barry Island Station on each of the days at 11.45, 13.30, 14.30 and 15.30 hrs. The out and back journey takes about half an hour.
+
+Booking is advisable as the trains are already filling up fast.
+
+Reservations can be made by calling Kathryn on 02920 511019 or 07938 126050.
+
+Fares are £11.50 each for adults and children and £5.50 for babies under 1 year.
+
+John Buxton, Managing Director of the railway said, “Meeting Santa on the steam train at Barry Tourist Railway is the best way to see him; there is no queuing as Santa visits every child on the train at their seat and Santa gives each one a quality present. Adults can sample the mulled wine and mince pies afterwards“.
+
+There will Vintage and Wartime Christmas displays at Barry Island Station too and craft stalls on some of the days.'
+        ),
+
         '25-07-2017' => array(
             // 'releasedate' => ''
             'newstitle' => 'Red Arrows over Barry',
