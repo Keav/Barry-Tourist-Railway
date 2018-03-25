@@ -4,6 +4,40 @@
     $events = array(
 
 /* ************************************************************** */
+/* 2018 SEASON */
+/* ************************************************************** */
+
+        '30-03-2018' => array(
+            'eventtitle' => 'Easter Bunny Trains',
+            'eventdate' => 'Good Friday March 30th',
+            'eventimage' => 'easter_bunnies.jpg',
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
+        ),
+
+        '31-03-2018' => array(
+            'eventtitle' => 'Easter Bunny Trains',
+            'eventdate' => 'Easter Saturday March 31st',
+            'eventimage' => 'easter_bunnies.jpg',
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
+        ),
+
+        '01-04-2018' => array(
+            'eventtitle' => 'Easter Bunny Trains',
+            'eventdate' => 'Easter Sunday April 1st',
+            'eventimage' => 'easter_bunnies.jpg',
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
+        ),
+
+        '02-04-2018' => array(
+            'eventtitle' => 'Easter Bunny Trains',
+            'eventdate' => 'Easter Monday April 2nd',
+            'eventimage' => 'easter_bunnies.jpg',
+            'eventcontent' => 'Come along to another great Easter weekend at Barry Tourist Railway. Trains will be running each day and our Café will be open for all.'
+        ),
+
+/* ************************************************************** */
+/* 2017 SEASON */
+/* ************************************************************** */
 
         '14-04-2017' => array(
             'eventtitle' => 'Easter Bunny Trains',
